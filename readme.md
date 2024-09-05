@@ -2,7 +2,7 @@
 Zenith website.
 
 ## Contribution process
-This repository is not accepting external contributions.
+This repository is not accepting code contributions from people outside Zenith, but you are welcome to create a new issue.
 
 ### I'm a Zenith team member
 This repository is Sarah's problem—in general, please talk to me about anything you're going to do before you do it to ensure that the website is held to a high standard.
