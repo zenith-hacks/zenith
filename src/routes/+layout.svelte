@@ -29,6 +29,20 @@
 				<li><a>Something</a></li>
 			</ul>
 		</div>
+		<div>
+			<p class="title">Legal</p>
+			<ul>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+				<li><a>Something</a></li>
+			</ul>
+		</div>
 	</div>
 </footer>
 
