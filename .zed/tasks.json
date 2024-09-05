@@ -1,7 +1,7 @@
 [
   {
     "label": "Run development server and open browser",
-    "command": "npx run dev -- --open",
+    "command": "npm run dev -- --open",
     //"args": [],
     // Env overrides for the command, will be appended to the terminal's environment from the settings.
     //"env": { "foo": "bar" },

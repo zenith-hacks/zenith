@@ -2,49 +2,51 @@
 	import LogoLarge from '$lib/LogoLarge.svelte';
 </script>
 
-<slot />
-<footer>
-	<div class="footer-inner">
-		<LogoLarge></LogoLarge>
-		<div>
-			<p class="title">Zenith Hacks</p>
-			<p>
-				Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a
-				501(c)(3) nonprofit (EIN: 81-2908499). Hack Zenith 2025 is not an official Hack Club event.
-				Use of Hack Club branding does not constitute an endorsement, implied or otherwise, of Hack
-				Zenith 2025 by Hack Club.
-			</p>
+<div class="main">
+	<slot />
+	<footer>
+		<div class="footer-inner">
+			<a href="/"><LogoLarge></LogoLarge></a>
+			<div>
+				<p class="title">Zenith Hacks</p>
+				<p>
+					Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a
+					501(c)(3) nonprofit (EIN: 81-2908499). Hack Zenith 2025 is not an official Hack Club event.
+					Use of Hack Club branding does not constitute an endorsement, implied or otherwise, of Hack
+					Zenith 2025 by Hack Club.
+				</p>
+			</div>
+			<div>
+				<p class="title">Links</p>
+				<ul>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+				</ul>
+			</div>
+			<div>
+				<p class="title">Legal</p>
+				<ul>
+					<li><a href="/privacy">Privacy policy</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+					<li><a>Something</a></li>
+				</ul>
+			</div>
 		</div>
-		<div>
-			<p class="title">Links</p>
-			<ul>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-			</ul>
-		</div>
-		<div>
-			<p class="title">Legal</p>
-			<ul>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-				<li><a>Something</a></li>
-			</ul>
-		</div>
-	</div>
-</footer>
+	</footer>
+</div>
 
 <style>
 	/* TODO: self-host these */
@@ -59,7 +61,7 @@
 		tab-size: 4;
 		-webkit-tap-highlight-color: transparent;
 
-		/* Theming */
+		/* Theming: use as rgb(var(--bg)) */
 		--bg-n10: 4, 9, 18;
 		--bg: 4, 11, 22;
 		--bg-10: 17, 23, 34;
@@ -90,19 +92,55 @@
 	}
 
 	:global(h1) {
-		font-size: 4em;
-	}
-
-	:global(h2) {
 		font-size: 2em;
 	}
 
+	:global(h2) {
+		font-size: 1.5em;
+	}
+
 	:global(h3) {
-		font-size: 1.8em;
+		font-size: 1.3em;
 	}
 
 	:global(h4) {
-		font-size: 1.6em;
+		font-size: 1.2em;
+	}
+	
+	@media (min-width: 640px) {
+		:global(h1) {
+			font-size: 3em;
+		}
+
+		:global(h2) {
+			font-size: 2em;
+		}
+
+		:global(h3) {
+			font-size: 1.8em;
+		}
+
+		:global(h4) {
+			font-size: 1.5em;
+		}
+	}
+	
+	@media (min-width: 1024px) {
+		:global(h1) {
+			font-size: 4em;
+		}
+
+		:global(h2) {
+			font-size: 2em;
+		}
+
+		:global(h3) {
+			font-size: 1.5em;
+		}
+
+		:global(h4) {
+			font-size: 1.3em;
+		}
 	}
 
 	/* The following code is adapted from Tailwind Preflight */
@@ -116,7 +154,6 @@
 
 	:global(img, svg, video, canvas, audio, iframe, embed, object) {
 		display: block;
-		vertical-align: middle;
 	}
 
 	:global(a, :visited) {
@@ -146,6 +183,7 @@
 	footer {
 		background: rgb(var(--bg-10));
 		padding: 4em;
+		min-width: 100vw;
 	}
 
 	.footer-inner {
@@ -164,6 +202,7 @@
 
 	.footer-inner > div {
 		flex: 1 1 auto;
+		min-width: 15%;
 	}
 
 	.footer-inner > :global(svg) {
@@ -177,5 +216,12 @@
 
 	ul {
 		list-style-type: none;
+	}
+	
+	.main {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		min-width: 100vw;
 	}
 </style>

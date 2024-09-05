@@ -3,9 +3,14 @@
 	import Hill1 from '$lib/hills/Hill1.svelte';
 	import Hill2 from '$lib/hills/Hill2.svelte';
 	import Hill3 from '$lib/hills/Hill3.svelte';
+	import RotatingSphere from './RotatingSphere.svelte';
 	import Sparkles from '$lib/Sparkles.svelte';
 	import Sphere from '$lib/Sphere.svelte';
 </script>
+
+<svelte:head>
+	<title>Zenith Hacks</title>
+</svelte:head>
 
 <div class="scenery">
 	<!-- Header -->
@@ -16,7 +21,6 @@
 			Zenith is a hackathon led by the Hack Club community coming this August. Join us and make
 			something awesome!
 		</p>
-		<aside>Zenith is not endorsed by Hack Club or the Hack Foundation.</aside>
 		<form class="outer-email-form">
 			<p>Get exactly one (1) email when sign ups open:</p>
 			<label for="email">Your email</label>
@@ -34,12 +38,16 @@
 				/>
 				<button id="submit" type="submit"></button>
 			</div>
+			<a href="/privacy" class="legal">Privacy policy</a>
 		</form>
 	</div>
 
 	<!-- Scenery and big circle -->
 	<div class="scenery-hills" aria-hidden="true">
-		<div class="scenery-hill-wrapper" style="z-index: 1; --fill: var(--bg-30)">
+		<div
+		    class="scenery-hill-wrapper"
+			style="z-index: 1; --fill: var(--bg-30)"
+		>
 			<Hill0></Hill0>
 		</div>
 		<div
@@ -56,7 +64,7 @@
 		</div>
 
 		<!-- TODO -->
-		<div class="wireframe-sphere"></div>
+		<RotatingSphere style="z-index: 3" />
 
 		<div
 			class="scenery-hill-wrapper"
@@ -77,7 +85,7 @@
 				environment.
 			</p>
 		</div>
-		<div></div>
+		<div class="image-box"></div>
 	</div>
 </div>
 
@@ -91,7 +99,7 @@
 				and share their results with others!
 			</p>
 		</div>
-		<div></div>
+		<div class="image-box"></div>
 	</div>
 </div>
 
@@ -125,13 +133,12 @@
 
 		display: flex;
 		flex-direction: column;
-		gap: 4em;
 	}
 
 	.scenery > :global(svg) {
 		/* Sparkles */
 		display: none;
-		z-index: -1;
+		z-index: 0;
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -155,14 +162,15 @@
 	}
 
 	.zenith-header {
+		z-index: 2;
 		display: flex;
 		flex-direction: column;
 		gap: 0.5em;
 		padding: 2em;
 	}
 
-	aside {
-		opacity: 80%;
+	.legal {
+		opacity: 90%;
 		font-size: 0.8em;
 	}
 
@@ -233,6 +241,7 @@
 	/* Scenery */
 
 	.scenery-hills {
+		position: relative;
 		display: flex;
 		justify-content: flex-end;
 		flex-direction: column;
@@ -274,6 +283,9 @@
 	/* Info bars */
 
 	.info {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
 		padding: 2rem;
 		margin: auto;
 		max-width: 1024px;
@@ -295,6 +307,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		background: rgb(var(--fg));
+		box-shadow: 0.5em 0.5em rgb(var(--bg-30));
+		min-height: 200px;
+	}
+	
+	.image-box :global(path) {
+		stroke: rgb(var(--bg));
 	}
 
 	@media (min-width: 640px) {
@@ -308,6 +327,10 @@
 
 		.info-right > div {
 			flex-direction: row-reverse;
+		}
+		
+		.info-right .image-box {
+			box-shadow: -0.5em 0.5em rgb(var(--bg-30));
 		}
 	}
 

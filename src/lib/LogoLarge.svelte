@@ -1,3 +1,5 @@
+<!-- TODO: actual logo -->
+
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
 	<g clip-path="url(#clip0_29_115)">
 		<rect width="128" height="128" rx="64" fill="#040B16" />
