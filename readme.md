@@ -16,7 +16,7 @@ To report and fix an issue, open an issue or shoot me a Slack message about it a
 
 ```
 npm run dev -- --open  # opens website in your browser (hot reloads)
-npm run build       # builds the website
+npm run build          # builds the website
 ```
 
 ## Guidelines
