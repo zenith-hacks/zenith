@@ -17,7 +17,7 @@
 		padding: 8em 2em;
 		max-width: 100%;
 	}
-	
+
 	div > :global(p) {
 		margin: 2em 0;
 	}

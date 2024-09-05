@@ -1,12 +1,12 @@
 {
-  "languages": {
-    "Svelte": {
-      "tab_size": 4,
-      "hard_tabs": true
-    },
-    "CSS": {
-      "tab_size": 4,
-      "hard_tabs": true
-    }
-  }
+	"languages": {
+		"Svelte": {
+			"tab_size": 4,
+			"hard_tabs": true
+		},
+		"CSS": {
+			"tab_size": 4,
+			"hard_tabs": true
+		}
+	}
 }

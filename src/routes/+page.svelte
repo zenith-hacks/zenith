@@ -44,10 +44,7 @@
 
 	<!-- Scenery and big circle -->
 	<div class="scenery-hills" aria-hidden="true">
-		<div
-		    class="scenery-hill-wrapper"
-			style="z-index: 1; --fill: var(--bg-30)"
-		>
+		<div class="scenery-hill-wrapper" style="z-index: 1; --fill: var(--bg-30)">
 			<Hill0></Hill0>
 		</div>
 		<div
@@ -311,7 +308,7 @@
 		box-shadow: 0.5em 0.5em rgb(var(--bg-30));
 		min-height: 200px;
 	}
-	
+
 	.image-box :global(path) {
 		stroke: rgb(var(--bg));
 	}
@@ -328,7 +325,7 @@
 		.info-right > div {
 			flex-direction: row-reverse;
 		}
-		
+
 		.info-right .image-box {
 			box-shadow: -0.5em 0.5em rgb(var(--bg-30));
 		}

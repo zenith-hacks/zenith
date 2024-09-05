@@ -11,9 +11,9 @@
 				<p class="title">Zenith Hacks</p>
 				<p>
 					Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a
-					501(c)(3) nonprofit (EIN: 81-2908499). Hack Zenith 2025 is not an official Hack Club event.
-					Use of Hack Club branding does not constitute an endorsement, implied or otherwise, of Hack
-					Zenith 2025 by Hack Club.
+					501(c)(3) nonprofit (EIN: 81-2908499). Hack Zenith 2025 is not an official Hack Club
+					event. Use of Hack Club branding does not constitute an endorsement, implied or otherwise,
+					of Hack Zenith 2025 by Hack Club.
 				</p>
 			</div>
 			<div>
@@ -106,7 +106,7 @@
 	:global(h4) {
 		font-size: 1.2em;
 	}
-	
+
 	@media (min-width: 640px) {
 		:global(h1) {
 			font-size: 3em;
@@ -124,7 +124,7 @@
 			font-size: 1.5em;
 		}
 	}
-	
+
 	@media (min-width: 1024px) {
 		:global(h1) {
 			font-size: 4em;
@@ -217,7 +217,7 @@
 	ul {
 		list-style-type: none;
 	}
-	
+
 	.main {
 		display: flex;
 		flex-direction: column;

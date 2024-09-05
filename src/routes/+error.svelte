@@ -3,10 +3,10 @@
 </svelte:head>
 
 <div>
-<h1>We couldn't find that one</h1>
-<p>That page doesn't exist. If you entered a web address please check it was correct.</p>
+	<h1>We couldn't find that one</h1>
+	<p>That page doesn't exist. If you entered a web address please check it was correct.</p>
 
-<a href="/">Go to the home page</a>
+	<a href="/">Go to the home page</a>
 </div>
 
 <style>
@@ -18,7 +18,7 @@
 		padding: 8em 2em;
 		max-width: 100%;
 	}
-	
+
 	h1 {
 		width: max-content;
 		max-width: 100%;
