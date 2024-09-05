@@ -85,6 +85,13 @@
 		background: rgba(var(--bg-10), 20%);
 	}
 	
+	@media (prefers-reduced-motion) {
+		.y {
+			animation: none;
+			width: var(--wt);
+		}
+	}
+	
 	.x {
 		position: absolute;
 		width: 200%;
