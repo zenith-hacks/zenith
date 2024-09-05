@@ -2,11 +2,17 @@
   import LogoLarge from '$lib/LogoLarge.svelte';
 </script>
 
+<svelte:head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205" rel=stylesheet />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin" rel="stylesheet" />
+</svelte:head>
+
 <div class="main">
   <slot />
   <footer>
     <div class="footer-inner">
-      <a href="/"><LogoLarge></LogoLarge></a>
+      <a href="/" aria-label="Go to the homepage"><LogoLarge></LogoLarge></a>
       <div>
         <p class="title">Zenith Hacks</p>
         <p>
@@ -34,10 +40,6 @@
 </div>
 
 <style>
-  /* TODO: self-host these */
-  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205');
-  @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin');
-
   :global(:root) {
     font-family: 'Instrument Sans', system-ui, sans-serif;
     line-height: 1.5;

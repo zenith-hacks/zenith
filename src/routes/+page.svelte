@@ -15,6 +15,8 @@
 
 <svelte:head>
   <title>Zenith Hacks</title>
+  <meta name="description" content="Zenith is a hackathon in San Francisco for teens coming next year.">
+  <!-- TODO: Add structured data: https://developers.google.com/search/docs/appearance/structured-data/event#structured-data-type-definitions -->
 </svelte:head>
 
 <div class="scenery">
@@ -23,8 +25,8 @@
   <div class="zenith-header">
     <h1>Zenith <span class="date">2025<span></span></span></h1>
     <p class="header-promo">
-      Zenith is a hackathon led by the Hack Club community coming this August. Join us and make
-      something awesome!
+      Zenith is a hackathon in San Francisco for teens led by the Hack Club community coming next year.
+      Join us and make something awesome!
     </p>
     <form
       class="outer-email-form"
@@ -55,7 +57,7 @@
           data-bwignore
           data-form-type="other"
         />
-        <button id="submit" type="submit" class="" bind:this={button}>
+        <button id="submit" type="submit" class="" aria-label="Submit" bind:this={button}>
           <div class="arrow">
             <Arrow />
           </div>
