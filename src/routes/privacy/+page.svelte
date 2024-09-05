@@ -4,50 +4,66 @@
 
 <Page title="Privacy">
   <h1>Privacy</h1>
-
+  
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla urna quam, faucibus ac nisl non,
-    laoreet imperdiet augue. Aliquam nunc lorem, ullamcorper eu sapien ac, dignissim tincidunt diam.
-    Donec vel tristique leo. Fusce semper massa sed dolor cursus dignissim. Fusce elementum, eros
-    sit amet fermentum dapibus, est diam viverra turpis, eu vulputate mauris ante ac mi. Nulla
-    tincidunt fringilla lacinia. Pellentesque at ultrices mi, et venenatis enim. Quisque porta
-    tempus orci id vulputate. Praesent sodales consectetur dapibus.
+    This privacy notice tells you what to expect us to do with your personal information.
   </p>
+  
+  <h2>Table of contents</h2>
+  <ul>
+    <li><a href="#contact">Contact details</a></li>
+    <li><a href="#information-collected">Information collected</a></li>
+  </ul>
+  
+  <h2 id="contact">Contact details</h2>
   <p>
-    Ut quis leo nisl. Aenean cursus porta eros vel molestie. Curabitur luctus sit amet orci auctor
-    consequat. Aliquam tincidunt neque id facilisis auctor. Phasellus viverra enim ut ante
-    sollicitudin, non sollicitudin lectus tempus. Sed tincidunt, erat et convallis sagittis, nibh
-    orci vulputate nunc, non rutrum tortor leo faucibus nisl. Pellentesque eget mauris nec magna
-    aliquam vehicula. Maecenas et tempor nisl. Curabitur eget diam sed nulla tempor lacinia non et
-    diam. Praesent eu pharetra augue. Nullam eu enim et sem porta ornare at a felis. Fusce et
-    sollicitudin magna. Aenean porttitor elit elit, id rutrum tellus porttitor ut. Phasellus non
-    libero rhoncus, fermentum ante vitae, facilisis mi. Proin hendrerit, leo egestas tempor egestas,
-    urna odio pulvinar risus, sit amet aliquet lacus enim eget est. Nunc sit amet efficitur turpis.
+    If you have data protection concerns, please send an email to <a href="mailto:data@zenithhacks.org">data@zenithhacks.org</a> and we'll get back to you shortly.
   </p>
+  
+  <h2 id="information-collected">What information do we collect and why?</h2>
   <p>
-    Nam fermentum ex et pulvinar dictum. Nunc posuere suscipit libero, et congue neque tincidunt et.
-    Sed cursus dictum pellentesque. Morbi feugiat elementum ex vitae tincidunt. Ut vitae dictum
-    lacus. Maecenas cursus suscipit malesuada. Quisque sit amet lacus ac dui aliquam elementum et
-    vel eros. Vivamus eu neque et ante sollicitudin accumsan. Cras purus nibh, tempus id nunc eget,
-    dignissim venenatis tellus. Integer a leo ut leo ultrices tempus in sed augue. Morbi scelerisque
-    consectetur felis a pretium. Nulla rhoncus hendrerit lacus feugiat laoreet. Nunc vitae nisi
-    sapien.
+    When you ask to be notified when sign-ups open by using the form on our website, we collect and store your email so we can notify you when sign-ups open.<br>
+    We also store the following information:
   </p>
+  <ul>
+    <li>your IP address</li>
+    <li>your approximate location (the city and country we think you live in)</li>
+    <li>the time of day you sent the request</li>
+  </ul>
   <p>
-    Nunc tristique felis sit amet justo faucibus, ut vestibulum quam dignissim. In ut nisi non orci
-    ornare ultricies et et ante. In quis venenatis turpis, id sagittis lacus. Curabitur consequat
-    nisi in tortor eleifend, eget rhoncus velit pellentesque. Sed blandit sem et mi pellentesque
-    lobortis. Nulla malesuada consequat eros, et ultricies diam elementum quis. Suspendisse odio
-    purus, laoreet non sollicitudin nec, iaculis et elit.
+    We store this information for security purposes, and to prevent spam.
   </p>
+  
+  <h2 id="lawful-bases">Our lawful bases for the collection and use of your data</h2>
   <p>
-    Vivamus et rutrum diam, ac finibus metus. Pellentesque cursus sodales libero, a dictum metus
-    rhoncus nec. Nullam ac rhoncus nisi. Maecenas vestibulum tortor quis urna convallis, in dictum
-    mi accumsan. Integer at facilisis lacus. Aenean magna justo, aliquet vitae consequat id,
-    venenatis sed nunc. Aliquam euismod turpis lorem, sed pellentesque ipsum euismod nec. Aliquam
-    sit amet ullamcorper risus. Etiam malesuada massa enim, id interdum est blandit eu. Integer
-    hendrerit mollis felis quis scelerisque. Nulla molestie est tortor, non placerat urna bibendum
-    posuere. Vivamus ac leo molestie, dictum leo nec, dictum tortor. Quisque aliquam dignissim odio,
-    sit amet tempus nisl porttitor eget.
+    We're allowed to collect your data because by submitting your data (for example, your email) you're consenting to your information being collected.
+    We do not collect information about you from third parties. We only collect the data that you or your device gives us.
+  </p>
+  
+  <h2 id="retention">How long do we keep your data?</h2>
+  <p>
+    When you ask to be notified when sign-ups open using the form on our website, we keep the information that you give us until we send you that email and for no longer than 12 months.<br>
+    After then, we delete the information.
+  </p>
+  
+  <h2 id="sharing">Who do we share your information with?</h2>
+  <p>
+    Your information is stored in Google's servers. They are not allowed to use that information for any purpose that you did not consent to.<br>
+    We may also share personal information with:
+  </p>
+  <ul>
+    <li>Organisations we need to share information with for safeguarding reasons</li>
+    <li>Organisations we're legally obliged to share personal information with</li>
+    <li>With your consent, publicly on our website, social media or other marketing and information media</li>
+  </ul>
+  
+  <h2 id="complaints">Complaining about our use of your personal data</h2>
+  <p>
+    If you have any concerns about our use of your personal data, you can make a complaint to us using the contact details at the top of this privacy notice.
+  </p>
+  
+  <h2 id="last-updated">Last updated</h2>
+  <p>
+    This privacy notice was last updated on the 5th of September, 2024. We may update this privacy notice at any time.
   </p>
 </Page>

@@ -64,7 +64,7 @@
           </div>
         </button>
       </div>
-      <a href="/privacy" class="legal">Privacy policy</a>
+      <p class="legal">By submitting, you confirm that you agree to and have read our <a href="/privacy">privacy policy</a></p>
     </form>
   </div>
 
@@ -130,7 +130,7 @@
   <h2>Can I come?</h2>
   <div>
     <div>
-      <p>You'll need to bring a laptop and an enthusiasm for technology.</p>
+      <p>You'll need to bring a laptop and an enthusiasm for technology!</p><br>
       <p>
         However, we understand that not everyone can afford to come to Zenith. Thanks to our
         sponsors, we're able to pay for your travels if you can't pay for your travels&mdash;even if
@@ -195,6 +195,10 @@
   .legal {
     opacity: 90%;
     font-size: 0.8em;
+  }
+  
+  .legal > a:hover {
+    text-decoration: underline;
   }
 
   @media (min-width: 640px) {

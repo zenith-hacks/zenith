@@ -16,32 +16,17 @@
           of Hack Zenith 2025 by Hack Club.
         </p>
       </div>
-      <div>
+      <div class="links">
         <p class="title">Links</p>
         <ul>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
+          <li><a href="https://hackclub.com/slack/">Join us on the Hack Club Slack</a></li>
+          <li><a href="https://github.com/zenith-hacks/zenith">View this page's source code</a></li>
         </ul>
       </div>
-      <div>
+      <div class="links">
         <p class="title">Legal</p>
         <ul>
           <li><a href="/privacy">Privacy policy</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
-          <li><a>Something</a></li>
         </ul>
       </div>
     </div>
@@ -160,7 +145,7 @@
 
   :global(a, :visited) {
     color: inherit;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   :global(img, video) {
@@ -168,7 +153,7 @@
     height: auto;
   }
 
-  :global(blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre, ul, ol) {
+  :global(blockquote, dl, dd, h1, h2, h3, h4, h5, h6, hr, figure, p, pre) {
     margin: 0;
     padding: 0;
   }
@@ -204,7 +189,14 @@
 
   .footer-inner > div {
     flex: 1 1 auto;
-    min-width: 15%;
+  }
+  
+  .footer-inner > .links {
+    min-width: max-content;
+  }
+  
+  .footer-inner > .links a:hover {
+    text-decoration: underline;
   }
 
   .footer-inner > :global(svg) {
@@ -218,6 +210,8 @@
 
   ul {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
 
   .main {
