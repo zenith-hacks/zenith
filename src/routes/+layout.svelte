@@ -1,11 +1,21 @@
 <script>
   import LogoLarge from '$lib/LogoLarge.svelte';
+  
+  function load() {
+    this.onload=null; this.rel='stylesheet'
+  }
 </script>
 
 <svelte:head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205" rel=stylesheet />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ZENITH%20205" />
+  
+  <!-- Deferred font loading -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205" as="style" onload={load} />
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin" as="style" onload={load} />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin" />
+  </noscript>
 </svelte:head>
 
 <div class="main">
