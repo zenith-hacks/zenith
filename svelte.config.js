@@ -11,7 +11,7 @@ const config = {
 		adapter: adapter({
 			// See below for an explanation of these options
 			routes: {
-				include: [],
+        include: ['/*'],
 				exclude: ['<all>']
 			},
 			platformProxy: {
