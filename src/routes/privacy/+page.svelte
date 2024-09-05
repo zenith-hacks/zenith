@@ -13,6 +13,11 @@
   <ul>
     <li><a href="#contact">Contact details</a></li>
     <li><a href="#information-collected">Information collected</a></li>
+    <li><a href="#lawful-bases">Our lawful bases for the collection and use of your data</a></li>
+    <li><a href="#retention">>How long do we keep your data?</a></li>
+    <li><a href="#sharing">Who do we share your information with?</a></li>
+    <li><a href="#complaints">Complaining about our use of your personal data</a></li>
+    <li><a href="#last-updated">Last updated</a></li>
   </ul>
   
   <h2 id="contact">Contact details</h2>
