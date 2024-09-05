@@ -2,7 +2,8 @@
   import LogoLarge from '$lib/LogoLarge.svelte';
   
   function load() {
-    this.onload=null; this.rel='stylesheet'
+    this.onload = null
+    this.rel = 'stylesheet'
   }
 </script>
 
