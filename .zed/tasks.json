@@ -38,8 +38,8 @@
     "shell": "system"
   },
   {
-    "label": "Run lint",
-    "command": "npx run dev -- --open",
+    "label": "Lint (must commit first)",
+    "command": "test -z $(git status --porcelain) && npx prettier --write .",
     //"args": [],
     // Env overrides for the command, will be appended to the terminal's environment from the settings.
     //"env": { "foo": "bar" },
@@ -57,7 +57,7 @@
     // * `never` — Do nothing when the command finishes (default)
     // * `always` — always hide the terminal tab, hide the pane also if it was the last tab in it
     // * `on_success` — hide the terminal tab on task success only, otherwise behaves similar to `always`
-    "hide": "on_success",
+    "hide": "never",
     // Which shell to use when running a task inside the terminal.
     // May take 3 values:
     // 1. (default) Use the system's default terminal configuration in /etc/passwd
@@ -74,5 +74,5 @@
     //         }
     //     }
     "shell": "system"
-  },
+  }
 ]
