@@ -8,6 +8,9 @@
   import RotatingSphere from './RotatingSphere.svelte';
   import Sparkles from '$lib/Sparkles.svelte';
   import Sphere from '$lib/Sphere.svelte';
+  import OnePasswordLight from '$lib/logos/1PasswordLight.svg';
+  import DisneyLight from '$lib/logos/DisneyLight.svg';
+  import RedBull from '$lib/logos/RedBull.svg';
   import { enhance } from '$app/forms';
   
   let button: HTMLButtonElement;
@@ -100,7 +103,7 @@
   </div>
 </div>
 
-<div class="info">
+<article class="info">
   <h2>What is Zenith?</h2>
   <div>
     <div>
@@ -112,9 +115,9 @@
     </div>
     <div class="image-box"></div>
   </div>
-</div>
+</article>
 
-<div class="info info-right">
+<article class="info info-right">
   <h2>What's a hackathon?</h2>
   <div>
     <div>
@@ -126,9 +129,9 @@
     </div>
     <div class="image-box"></div>
   </div>
-</div>
+</article>
 
-<div class="info">
+<article class="info">
   <h2>Can I come?</h2>
   <div>
     <div>
@@ -144,7 +147,27 @@
       <Sphere />
     </div>
   </div>
-</div>
+</article>
+
+<article>
+  <div class="info">
+    <h2>Our sponsors</h2>
+    <p>
+      This event wouldn't have been possible without the help of:
+    </p>
+  </div>
+  
+  <div class="sponsors">
+    <img loading="lazy" src={OnePasswordLight} alt="1Password logo">
+    <img loading="lazy" src={DisneyLight} alt="Disney logo">
+    <!-- TODO: Get in contact with Code for Cause for their SVG logo -->
+    <!-- TODO: Get in contact with Desmos for their SVG logo -->
+    <!-- TODO: Get in contact with Axure for their SVG logo -->
+    <img loading="lazy" src={RedBull} alt="RedBull logo">
+    <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
+    <!-- TODO: Get in contact with Google for their SVG logo -->
+  </div>
+</article>
 
 <style>
   /* Scenery styles */
@@ -376,7 +399,7 @@
     justify-content: center;
     align-items: center;
     background: rgb(var(--fg));
-    box-shadow: 0.5em 0.5em rgb(var(--bg-30));
+    box-shadow: 0.5em 0.5em rgb(var(--bg-20));
     min-height: 200px;
   }
 
@@ -398,7 +421,7 @@
     }
 
     .info-right .image-box {
-      box-shadow: -0.5em 0.5em rgb(var(--bg-30));
+      box-shadow: -0.5em 0.5em rgb(var(--bg-20));
     }
   }
 
@@ -406,5 +429,25 @@
     .info {
       padding: 4rem;
     }
+  }
+  
+  /* Sponsors */
+  
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 4em 4em 2em;
+    gap: 1em;
+    width: 100%;
+  }
+  
+  .sponsors > img {
+    flex: 1 1 auto;
+    padding: 1em;
+    background: rgb(var(--bg-30));
+    box-shadow: 0.5em 0.5em rgb(var(--bg-20));
+    height: 6em;
+    object-fit: contain;
   }
 </style>

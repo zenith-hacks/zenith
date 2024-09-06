@@ -158,7 +158,7 @@
 
   :global(a, :visited) {
     color: inherit;
-    text-decoration: none;
+    text-decoration: underline dotted;
   }
 
   :global(img, video) {

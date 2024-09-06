@@ -21,6 +21,7 @@
     {/each}
     {#each Array(verticalLines + 1) as _, i}
       {#if i == 0}
+        <!-- for i = 0 the ellipse goes in the wrong direction, so flip wt and w here -->
         <div
           class="y left"
           style={`--wt: ${Math.abs(Math.sin(i * verticalAngle) * 100)}%; --w: ${Math.abs(Math.sin((i - 1) * verticalAngle) * 100)}%`}

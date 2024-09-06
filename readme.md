@@ -1,6 +1,6 @@
-# website
+# zenith
 
-Zenith website.
+This repository contains the Zenith beta website: https://beta.zenithhacks.org/
 
 ## Contribution process
 
@@ -10,7 +10,7 @@ This repository is not accepting code contributions from people outside Zenith, 
 
 This repository is Sarah's problem—in general, please talk to me about anything you're going to do before you do it to ensure that the website is held to a high standard.
 
-To report and fix an issue, open an issue or shoot me a Slack message about it and I'll tell you what to do next. If it is really trivial, just open a PR. Avoid merging without a review.
+To report and fix an issue, open an issue or shoot me a Slack message about it and I'll tell you what to do next. If it is really trivial, just open a PR.
 
 ## Get started
 
@@ -32,3 +32,5 @@ The built website **must**:
 - Be compatible with Baseline 2023 browsers.
 - Have all features work without JavaScript enabled.
 - Meet Lighthouse targets. Every metric should be above 95.
+- Support reduced motion
+- Comply with the WCAG AA checklist (pending)
