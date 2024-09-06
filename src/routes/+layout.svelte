@@ -16,7 +16,7 @@
   <!-- Deferred font loading -->
   <link
     rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20abcdefghijklmnopqrstuvwxyz205"
     as="style"
     onload={load}
   />

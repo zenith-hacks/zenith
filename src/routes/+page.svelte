@@ -73,9 +73,7 @@
         </button>
       </div>
       <p class="legal">
-        By submitting, you confirm that you agree to and have read our <a href="/privacy"
-          >privacy policy</a
-        >
+        By submitting, you confirm that you agree to and have read our <a href="/privacy">privacy policy</a>
       </p>
     </form>
   </div>
@@ -173,6 +171,14 @@
     <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
     <!-- TODO: Get in contact with Google for their SVG logo -->
   </div>
+  
+  <div class="info">
+    <p>As well as these individual donors:</p>
+  </div>
+  
+  <div class="sponsors">
+    <p>John Tan-Aristy</p>
+  </div>
 </article>
 
 <style>
@@ -232,7 +238,7 @@
     text-decoration: underline;
   }
 
-  @media (min-width: 640px) {
+  @media (min-width: 640px) and (min-height: 640px) {
     h1 {
       font-size: 6em;
       width: max-content;
@@ -247,7 +253,7 @@
     }
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1024px) and (min-height: 1024px) {
     h1 {
       font-size: 8em;
     }
@@ -445,17 +451,37 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0 4em 4em 2em;
+    padding: 0 2em;
     gap: 1em;
     width: 100%;
   }
+  
+  .sponsors > * {
+    flex: 1 1 auto;
+    background: rgb(var(--bg-30));
+    box-shadow: 0.5rem 0.5rem rgb(var(--bg-20));
+    padding: 1rem;
+  }
 
   .sponsors > img {
-    flex: 1 1 auto;
-    padding: 1em;
-    background: rgb(var(--bg-30));
-    box-shadow: 0.5em 0.5em rgb(var(--bg-20));
     height: 6em;
     object-fit: contain;
+  }
+  
+  article:not(.info) {
+    margin-bottom: 4em;
+  }
+  
+  .sponsors > p {
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-weight: bolder;
+    font-size: 1.3em;
+  }
+  
+  @media (min-width: 1024px) {
+    .sponsors {
+      padding: 0 4em;
+    }
   }
 </style>
