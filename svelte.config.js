@@ -20,7 +20,12 @@ const config = {
         experimentalJsonConfig: false,
         persist: false
       }
-    })
+    }),
+
+    // Inline all CSS styles to save connection overhead, at the expense of
+    // having to download the entire site every time.
+    // Proper ETags should help with that.
+    inlineStyleThreshold: 2048
   }
 };
 

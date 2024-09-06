@@ -18,10 +18,7 @@
 
 <svelte:head>
   <title>Zenith Hacks</title>
-  <meta
-    name="description"
-    content="Zenith is a hackathon in San Francisco for teens coming next year."
-  />
+  <meta name="description" content="Zenith is a hackathon in San Francisco for teens coming next year." />
   <!-- TODO: Add structured data: https://developers.google.com/search/docs/appearance/structured-data/event#structured-data-type-definitions -->
 </svelte:head>
 
@@ -31,8 +28,8 @@
   <div class="zenith-header">
     <h1>Zenith <span class="date">2025<span></span></span></h1>
     <p class="header-promo">
-      Zenith is a hackathon in San Francisco for teens led by the Hack Club community coming next
-      year. Join us and make something awesome!
+      Zenith is a hackathon in San Francisco for teens led by the Hack Club community coming next year. Join us and make
+      something awesome!
     </p>
     <form
       class="outer-email-form"
@@ -83,26 +80,17 @@
     <div class="scenery-hill-wrapper" style="z-index: 1; --fill: var(--bg-30)">
       <Hill0></Hill0>
     </div>
-    <div
-      class="scenery-hill-wrapper"
-      style="z-index: 2; --fill: var(--bg-20); --last-fill: var(--bg-30)"
-    >
+    <div class="scenery-hill-wrapper" style="z-index: 2; --fill: var(--bg-20); --last-fill: var(--bg-30)">
       <Hill1></Hill1>
     </div>
-    <div
-      class="scenery-hill-wrapper"
-      style="z-index: 3; --fill: var(--bg-10); --last-fill: var(--bg-20)"
-    >
+    <div class="scenery-hill-wrapper" style="z-index: 3; --fill: var(--bg-10); --last-fill: var(--bg-20)">
       <Hill2></Hill2>
     </div>
 
     <!-- TODO -->
     <RotatingSphere style="z-index: 3" />
 
-    <div
-      class="scenery-hill-wrapper"
-      style="z-index: 5; --fill: var(--bg); --last-fill: var(--bg-10)"
-    >
+    <div class="scenery-hill-wrapper" style="z-index: 5; --fill: var(--bg); --last-fill: var(--bg-10)">
       <Hill3></Hill3>
     </div>
   </div>
@@ -113,9 +101,8 @@
   <div>
     <div>
       <p>
-        Zenith 2025 is a hackathon in San Francisco organised by and for teens. Join us for 2 days
-        to share and collaborate with like minded individuals in a supportive, mistake friendly
-        environment.
+        Zenith 2025 is a hackathon in San Francisco organised by and for teens. Join us for 2 days to share and
+        collaborate with like minded individuals in a supportive, mistake friendly environment.
       </p>
     </div>
     <div class="image-box"></div>
@@ -128,8 +115,8 @@
     <div>
       <p>
         <!-- TODO: Change this -->
-        A hackathon is a social event focused on coding where teenagers come together to learn, build,
-        and share their results with others!
+        A hackathon is a social event focused on coding where teenagers come together to learn, build, and share their results
+        with others!
       </p>
     </div>
     <div class="image-box"></div>
@@ -143,10 +130,9 @@
       <p>You'll need to bring a laptop and an enthusiasm for technology!</p>
       <br />
       <p>
-        However, we understand that not everyone can afford to come to Zenith. Thanks to our
-        sponsors, we're able to pay for your travels if you can't pay for your travels&mdash;even if
-        you live outside of the US. We've got limited funds, so apply early if you need help with
-        paying for travel.
+        However, we understand that not everyone can afford to come to Zenith. Thanks to our sponsors, we're able to pay
+        for your travels if you can't pay for your travels&mdash;even if you live outside of the US. We've got limited
+        funds, so apply early if you need help with paying for travel.
       </p>
     </div>
     <div class="image-box">
@@ -171,11 +157,11 @@
     <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
     <!-- TODO: Get in contact with Google for their SVG logo -->
   </div>
-  
+
   <div class="info">
     <p>As well as these individual donors:</p>
   </div>
-  
+
   <div class="sponsors">
     <p>John Tan-Aristy</p>
   </div>
@@ -207,6 +193,7 @@
   /* Header styles */
 
   h1 {
+    font-family: 'Zenith Title Grotesk', 'Zenith Grotesk', monospace, system-ui, sans-serif;
     font-size: 4em;
     line-height: 1;
     width: min-content;
@@ -455,7 +442,7 @@
     gap: 1em;
     width: 100%;
   }
-  
+
   .sponsors > * {
     flex: 1 1 auto;
     background: rgb(var(--bg-30));
@@ -467,18 +454,18 @@
     height: 6em;
     object-fit: contain;
   }
-  
+
   article:not(.info) {
     margin-bottom: 4em;
   }
-  
+
   .sponsors > p {
     text-align: center;
-    font-family: "Space Grotesk";
+    font-family: 'Zenith Grotesk', monospace, system-ui, sans-serif;
     font-weight: bolder;
     font-size: 1.3em;
   }
-  
+
   @media (min-width: 1024px) {
     .sponsors {
       padding: 0 4em;

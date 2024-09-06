@@ -1,40 +1,38 @@
 <script>
   import LogoLarge from '$lib/LogoLarge.svelte';
 
-  function load() {
-    this.onload = null;
-    this.rel = 'stylesheet';
-  }
+  import fontCSS from './FontStylesheet.css?url';
 </script>
 
 <svelte:head>
+  <!-- Look mom, no Google Fonts! -->
   <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ZENITH%20205"
+    rel="preload"
+    href="/fonts/SpaceGrotesk-title-subset-instanced.woff2"
+    as="font"
+    type="font/woff2"
+    fetchpriority="high"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="preload"
+    href="/fonts/InstrumentSans-asciionly-subset-instanced.woff2"
+    as="font"
+    type="font/woff2"
+    fetchpriority="high"
+    crossorigin="anonymous"
   />
 
-  <!-- Deferred font loading -->
-  <link
-    rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20abcdefghijklmnopqrstuvwxyz205"
-    as="style"
-    onload={load}
-  />
-  <link
-    rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin"
-    as="style"
-    onload={load}
-  />
+  <!-- But we still need the rest of the characters, so run a low priority deferred fetch when JS is enabled -->
+  <link id="fontCSS" rel="preload" href={fontCSS} as="style" fetchpriority="low" />
+  <script>
+    window.addEventListener('load', () => {
+      document.getElementById('fontCSS').rel = 'stylesheet';
+      document.getElementsByClass;
+    });
+  </script>
   <noscript>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205%27%3F"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin"
-    />
+    <link rel="stylesheet" href={fontCSS} />
   </noscript>
 </svelte:head>
 
@@ -46,10 +44,9 @@
       <div>
         <p class="title">Zenith Hacks</p>
         <p>
-          Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a
-          501(c)(3) nonprofit (EIN: 81-2908499). Hack Zenith 2025 is not an official Hack Club
-          event. Use of Hack Club branding does not constitute an endorsement, implied or otherwise,
-          of Hack Zenith 2025 by Hack Club.
+          Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
+          81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
+          constitute an endorsement, implied or otherwise, of Hack Zenith 2025 by Hack Club.
         </p>
       </div>
       <div class="links">
@@ -70,8 +67,23 @@
 </div>
 
 <style>
+  @font-face {
+    font-family: 'Zenith Title Grotesk';
+    src: url('/fonts/SpaceGrotesk-title-subset-instanced.woff2') format('woff2');
+    font-display: swap;
+    font-feature-settings: 'ss02' 'ss03' 'ss04' 'ss05';
+  }
+
+  @font-face {
+    font-family: 'Zenith Sans ASCII';
+    src:
+      local('Instrument Sans'),
+      url('/fonts/InstrumentSans-asciionly-subset-instanced.woff2') format('woff2');
+    font-display: swap;
+  }
+
   :global(:root) {
-    font-family: 'Instrument Sans', system-ui, sans-serif;
+    font-family: 'Zenith Sans ASCII', 'Zenith Sans', system-ui, sans-serif;
     line-height: 1.5;
     -webkit-text-size-adjust: 100%;
     -moz-tab-size: 4;
@@ -104,7 +116,7 @@
   }
 
   :global(h1, h2, h3, h4, h5, h6) {
-    font-family: 'Space Grotesk', monospace, sans-serif;
+    font-family: 'Zenith Grotesk', monospace, system-ui, sans-serif;
     text-transform: uppercase;
     font-weight: bolder;
     font-size: inherit;
@@ -236,7 +248,7 @@
   }
 
   .title {
-    font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-family: 'Zenith Grotesk', system-ui, sans-serif;
     font-weight: bolder;
   }
 
