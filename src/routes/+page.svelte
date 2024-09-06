@@ -169,7 +169,7 @@
     <!-- TODO: Get in contact with Code for Cause for their SVG logo -->
     <!-- TODO: Get in contact with Desmos for their SVG logo -->
     <!-- TODO: Get in contact with Axure for their SVG logo -->
-    <img loading="lazy" src={RedBull} alt="RedBull logo" />
+    <!-- <img loading="lazy" src={RedBull} alt="RedBull logo" /> -->
     <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
     <!-- TODO: Get in contact with Google for their SVG logo -->
   </div>
