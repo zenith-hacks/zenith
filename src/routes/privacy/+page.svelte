@@ -14,7 +14,7 @@
     <li><a href="#contact">Contact details</a></li>
     <li><a href="#information-collected">Information collected</a></li>
     <li><a href="#lawful-bases">Our lawful bases for the collection and use of your data</a></li>
-    <li><a href="#retention">>How long do we keep your data?</a></li>
+    <li><a href="#retention">How long do we keep your data?</a></li>
     <li><a href="#sharing">Who do we share your information with?</a></li>
     <li><a href="#complaints">Complaining about our use of your personal data</a></li>
     <li><a href="#last-updated">Last updated</a></li>
@@ -53,7 +53,14 @@
   
   <h2 id="sharing">Who do we share your information with?</h2>
   <p>
-    Your information is stored in Google's servers. They are not allowed to use that information for any purpose that you did not consent to.<br>
+    Your information is processed by:
+  </p>
+  <ul>
+    <li>Cloudflare, which hosts our website and processes your information. Their DPA is <a href="https://www.cloudflare.com/en-gb/cloudflare-customer-dpa/">here</a>, and by using our services you agree to it.</li>
+    <li>Google, which securely stores your information for us to use when we need to. Their DPA <a href="https://cloud.google.com/terms/data-processing-addendum/?hl=en">here</a>, and by using our services you agree to it.</li>
+  </ul>
+  <p>
+    They are only allowed to use that information for the purposes of providing their services to us. They cannot use it to, for example, sell you something.<br>
     We may also share personal information with:
   </p>
   <ul>
