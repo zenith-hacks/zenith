@@ -29,7 +29,7 @@
   <noscript>
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205%27%3F"
     />
     <link
       rel="stylesheet"
