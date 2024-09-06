@@ -12,13 +12,16 @@
   import DisneyLight from '$lib/logos/DisneyLight.svg';
   import RedBull from '$lib/logos/RedBull.svg';
   import { enhance } from '$app/forms';
-  
+
   let button: HTMLButtonElement;
 </script>
 
 <svelte:head>
   <title>Zenith Hacks</title>
-  <meta name="description" content="Zenith is a hackathon in San Francisco for teens coming next year.">
+  <meta
+    name="description"
+    content="Zenith is a hackathon in San Francisco for teens coming next year."
+  />
   <!-- TODO: Add structured data: https://developers.google.com/search/docs/appearance/structured-data/event#structured-data-type-definitions -->
 </svelte:head>
 
@@ -28,21 +31,21 @@
   <div class="zenith-header">
     <h1>Zenith <span class="date">2025<span></span></span></h1>
     <p class="header-promo">
-      Zenith is a hackathon in San Francisco for teens led by the Hack Club community coming next year.
-      Join us and make something awesome!
+      Zenith is a hackathon in San Francisco for teens led by the Hack Club community coming next
+      year. Join us and make something awesome!
     </p>
     <form
       class="outer-email-form"
       method="POST"
       action="/?/email"
       use:enhance={({ _ }) => {
-        button.classList.add('loading')
+        button.classList.add('loading');
         button.setAttribute('disabled', '');
         return async ({ update }) => {
           await update();
 
-          button.classList.remove('loading')
-          button.classList.add('loaded')
+          button.classList.remove('loading');
+          button.classList.add('loaded');
         };
       }}
     >
@@ -69,7 +72,11 @@
           </div>
         </button>
       </div>
-      <p class="legal">By submitting, you confirm that you agree to and have read our <a href="/privacy">privacy policy</a></p>
+      <p class="legal">
+        By submitting, you confirm that you agree to and have read our <a href="/privacy"
+          >privacy policy</a
+        >
+      </p>
     </form>
   </div>
 
@@ -135,7 +142,8 @@
   <h2>Can I come?</h2>
   <div>
     <div>
-      <p>You'll need to bring a laptop and an enthusiasm for technology!</p><br>
+      <p>You'll need to bring a laptop and an enthusiasm for technology!</p>
+      <br />
       <p>
         However, we understand that not everyone can afford to come to Zenith. Thanks to our
         sponsors, we're able to pay for your travels if you can't pay for your travels&mdash;even if
@@ -152,18 +160,16 @@
 <article>
   <div class="info">
     <h2>Our sponsors</h2>
-    <p>
-      This event wouldn't have been possible without the help of:
-    </p>
+    <p>This event wouldn't have been possible without the help of:</p>
   </div>
-  
+
   <div class="sponsors">
-    <img loading="lazy" src={OnePasswordLight} alt="1Password logo">
-    <img loading="lazy" src={DisneyLight} alt="Disney logo">
+    <img loading="lazy" src={OnePasswordLight} alt="1Password logo" />
+    <img loading="lazy" src={DisneyLight} alt="Disney logo" />
     <!-- TODO: Get in contact with Code for Cause for their SVG logo -->
     <!-- TODO: Get in contact with Desmos for their SVG logo -->
     <!-- TODO: Get in contact with Axure for their SVG logo -->
-    <img loading="lazy" src={RedBull} alt="RedBull logo">
+    <img loading="lazy" src={RedBull} alt="RedBull logo" />
     <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
     <!-- TODO: Get in contact with Google for their SVG logo -->
   </div>
@@ -221,7 +227,7 @@
     opacity: 90%;
     font-size: 0.8em;
   }
-  
+
   .legal > a:hover {
     text-decoration: underline;
   }
@@ -289,7 +295,7 @@
     flex: 0 0 3em;
     padding: 0;
   }
-  
+
   .email-form > button > * {
     margin: auto;
     width: min-content;
@@ -297,34 +303,36 @@
 
   .email-form > button > .arrow {
     fill: rgb(var(--bg));
-    transition: transform 200ms, background 200ms;
+    transition:
+      transform 200ms,
+      background 200ms;
     transform: translateX(0);
   }
 
   .email-form > button:hover > .arrow {
     transform: translateX(0.2em);
   }
-  
+
   .email-form > button > .check {
     display: none;
   }
-  
+
   .email-form > button :global(svg) {
     fill: rgb(var(--bg));
   }
-  
+
   .email-form > button:global(.loading) {
     background: rgba(var(--fg), 80%);
   }
-  
+
   .email-form > button:global(.loaded) {
     background: rgb(var(--green));
   }
-  
+
   .email-form > :global(button.loaded > .check) {
     display: block;
   }
-  
+
   .email-form > :global(button.loaded > .arrow) {
     display: none;
   }
@@ -430,9 +438,9 @@
       padding: 4rem;
     }
   }
-  
+
   /* Sponsors */
-  
+
   .sponsors {
     display: flex;
     flex-direction: row;
@@ -441,7 +449,7 @@
     gap: 1em;
     width: 100%;
   }
-  
+
   .sponsors > img {
     flex: 1 1 auto;
     padding: 1em;

@@ -1,21 +1,40 @@
 <script>
   import LogoLarge from '$lib/LogoLarge.svelte';
-  
+
   function load() {
-    this.onload = null
-    this.rel = 'stylesheet'
+    this.onload = null;
+    this.rel = 'stylesheet';
   }
 </script>
 
 <svelte:head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ZENITH%20205" />
-  
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ZENITH%20205"
+  />
+
   <!-- Deferred font loading -->
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205" as="style" onload={load} />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin" as="style" onload={load} />
+  <link
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205"
+    as="style"
+    onload={load}
+  />
+  <link
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin"
+    as="style"
+    onload={load}
+  />
   <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZ%20ltienakcsgh205"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400&display=swap&subset=latin"
+    />
   </noscript>
 </svelte:head>
 
@@ -67,7 +86,7 @@
     --bg-30: 41, 47, 57;
 
     --fg: 240, 242, 255;
-    
+
     --green: 179, 255, 83;
 
     /* Breakpoints */
@@ -203,11 +222,11 @@
   .footer-inner > div {
     flex: 1 1 auto;
   }
-  
+
   .footer-inner > .links {
     min-width: max-content;
   }
-  
+
   .footer-inner > .links a:hover {
     text-decoration: underline;
   }
