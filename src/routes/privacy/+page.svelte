@@ -12,19 +12,26 @@
     > for regulations that apply to you.
   </p>
 
+  <hr />
+
   <h2>Table of contents</h2>
   <ul>
     <li><a href="#contact">Contact details</a></li>
+    <div class="gap"></div>
     <li><a href="#information-collected">Information we collect</a></li>
     <li><a href="#why-collect">Why we collect your information</a></li>
     <li><a href="#lawful-bases">Our lawful bases for processing your data</a></li>
     <li><a href="#sharing">Who we share your data with and why</a></li>
     <li><a href="#retention">How long we keep your data for</a></li>
-    <li><a href="#last-updated">Last updated</a></li>
+    <div class="gap"></div>
     <li><a href="#rights">Your rights</a></li>
-    <li><a href="#accessibility">Accessibility</a></li>
     <li><a href="#complaints">Complain about our use of your data</a></li>
+    <div class="gap"></div>
+    <li><a href="#accessibility">Accessibility</a></li>
+    <li><a href="#last-updated">Last updated</a></li>
   </ul>
+
+  <hr />
 
   <h2 id="contact">Contact details</h2>
   <p>
@@ -32,6 +39,8 @@
       href="mailto:data@zenithhacks.org">data@zenithhacks.org</a
     >. We'll respond to you as soon as possible. Please ensure that all emails adhere to our Code of Conduct.
   </p>
+
+  <hr />
 
   <h2 id="information-collected">Information we collect</h2>
   <p>
@@ -92,6 +101,8 @@
     > section. However, we may delete your data sooner than this. After this period, your data will be permanently deleted.
   </p>
 
+  <hr />
+
   <h2 id="rights">Your rights</h2>
   <p>Your country may have data protection rights that apply to you. In most countries, you have the right to:</p>
   <ul>
@@ -114,6 +125,8 @@
     dealt with.
   </p>
 
+  <hr />
+
   <h2 id="accessibility">Accessibility</h2>
   <p>
     If you require an accessible version of this website, please email <a href="mailto:accessibility@zenithhacks.org"
@@ -126,3 +139,9 @@
     This privacy notice was last updated on the 7th of September, 2024. We may update this privacy notice at any time.
   </p>
 </Page>
+
+<style>
+  .gap {
+    padding-top: 0.5em;
+  }
+</style>

@@ -34,4 +34,10 @@
   div :global(a:hover) {
     text-decoration: underline;
   }
+
+  div :global(hr) {
+    border-top: 1px solid rgb(var(--fg));
+    opacity: 50%;
+    margin-top: 2em;
+  }
 </style>
