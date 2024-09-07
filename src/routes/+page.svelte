@@ -53,7 +53,7 @@
           id="email"
           type="email"
           name="email"
-          placeholder="sarah@example.com"
+          placeholder="you@zenith2025.org"
           required
           data-lp-igore
           data-lpignore="true"
