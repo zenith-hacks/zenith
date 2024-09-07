@@ -23,6 +23,7 @@ For specific situations:
 
 ```
 make favicon           # generate favicon.ico
+make fonts             # generate font subsets
 ```
 
 ## Guidelines
