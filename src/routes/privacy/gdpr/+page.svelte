@@ -6,11 +6,9 @@
   <h1>GDPR compliance statement</h1>
 
   <p>
-    Zenith and the Zenith team (we, us) is committed to ensuring the privacy and protection of your personal
-    data in compliance with the
-    General Data Protection Regulation (GDPR).
-    This statement explains your additional rights as a data subject under the GDPR.
-    Please read our <a href="/privacy">Privacy Policy</a> for more information on how we collect,
+    Zenith and the Zenith team (we, us) is committed to ensuring the privacy and protection of your personal data in
+    compliance with the General Data Protection Regulation (GDPR). This statement explains your additional rights as a
+    data subject under the GDPR. Please read our <a href="/privacy">Privacy Policy</a> for more information on how we collect,
     store, and process personal data.
   </p>
 
@@ -18,8 +16,9 @@
   <p>
     The Zenith Hacks Team is the data controller responsible for the processing of your personal data. If you have any
     questions or concerns regarding the handling of your data, you may contact us at <a
-    href="mailto:data@zenithhacks.org">data@zenithhacks.org</a>. We will respond to your inquiries as soon as possible.
-    Please ensure that all emails adhere to our Code of Conduct.
+      href="mailto:data@zenithhacks.org">data@zenithhacks.org</a
+    >. We will respond to your inquiries as soon as possible. Please ensure that all emails adhere to our Code of
+    Conduct.
   </p>
 
   <h2>Legal Basis for Processing Your Data</h2>
@@ -38,36 +37,40 @@
   <p>
     We take data security seriously and employ industry-standard measures to protect your personal information from
     unauthorized access, misuse, or disclosure. Your data is stored on Google's servers, <a
-    href="https://cloud.google.com/privacy/gdpr">which comply with GDPR
-    regulations </a>. We do not share your personal data with third parties unless required by law or with your explicit
-    consent.
+      href="https://cloud.google.com/privacy/gdpr"
+      >which comply with GDPR regulations
+    </a>. We do not share your personal data with third parties unless required by law or with your explicit consent.
   </p>
 
   <h2>Your Rights Under GDPR</h2>
-  <p>
-    As a data subject under the GDPR, you have the following rights regarding your personal data:
-  </p>
+  <p>As a data subject under the GDPR, you have the following rights regarding your personal data:</p>
   <ul>
     <li><strong>Right of Access:</strong> You may request access to the personal data we hold about you.</li>
     <li><strong>Right to Rectification:</strong> You may request corrections to any inaccurate or incomplete data.</li>
-    <li><strong>Right to Erasure ("Right to be Forgotten"):</strong> You may request the deletion of your personal data,
-      subject to certain conditions.
+    <li>
+      <strong>Right to Erasure ("Right to be Forgotten"):</strong> You may request the deletion of your personal data, subject
+      to certain conditions.
     </li>
-    <li><strong>Right to Restriction of Processing:</strong> You may request that we restrict the processing of your
-      personal data in certain circumstances.
+    <li>
+      <strong>Right to Restriction of Processing:</strong> You may request that we restrict the processing of your personal
+      data in certain circumstances.
     </li>
-    <li><strong>Right to Data Portability:</strong> You may request that we provide your data in a structured, commonly
-      used, and machine-readable format, or that we transfer it to another data controller.
+    <li>
+      <strong>Right to Data Portability:</strong> You may request that we provide your data in a structured, commonly used,
+      and machine-readable format, or that we transfer it to another data controller.
     </li>
-    <li><strong>Right to Object:</strong> You may object to the processing of your personal data in certain
-      circumstances, such as for direct marketing purposes.
+    <li>
+      <strong>Right to Object:</strong> You may object to the processing of your personal data in certain circumstances,
+      such as for direct marketing purposes.
     </li>
   </ul>
 
   <h2>Exercising Your Rights</h2>
   <p>
-    To exercise any of your rights under the GDPR, please contact us at <a href="mailto:data@zenithhacks.org">data@zenithhacks.org</a>.
-    We may require proof that the data belongs to you before we can process your request. We will respond as soon as possible and no later than 30 days after we have recieved your request.
+    To exercise any of your rights under the GDPR, please contact us at <a href="mailto:data@zenithhacks.org"
+      >data@zenithhacks.org</a
+    >. We may require proof that the data belongs to you before we can process your request. We will respond as soon as
+    possible and no later than 30 days after we have recieved your request.
   </p>
 
   <h2>International Transfers</h2>
@@ -80,13 +83,14 @@
   <h2>Filing a Complaint</h2>
   <p>
     If you believe that we are not processing your personal data in accordance with the GDPR, you have the right to file
-    a complaint with your <a href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en">local data protection authority or supervisory authority in the EEA</a>.
-    In the UK, this is the <a href="https://ico.org.uk/">ICO</a>.
+    a complaint with your <a href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en"
+      >local data protection authority or supervisory authority in the EEA</a
+    >. In the UK, this is the <a href="https://ico.org.uk/">ICO</a>.
   </p>
 
   <h2>Updates to This GDPR Compliance Statement</h2>
   <p>
-    This GDPR Compliance Statement was last updated on the 7th of September 2024.
-    We may update this statement at any time to reflect changes in our processing activities or legal obligations.
+    This GDPR Compliance Statement was last updated on the 7th of September 2024. We may update this statement at any
+    time to reflect changes in our processing activities or legal obligations.
   </p>
 </Page>
