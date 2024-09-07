@@ -5,55 +5,55 @@
 <Page title="Privacy">
   <h1>Privacy Policy</h1>
 
-  <p>This privacy policy explains how the Zenith Hacks Team (referred to as "we" or "us") handles your personal
-    information. For residents of the European Union (EU) please also refer to our <a
-      href="/privacy/gdpr">GDPR</a> Statement for specific regulations that apply to you.</p>
+  <p>This privacy policy explains how Zenith and the Zenith team (referred to as "we" or "us") handles your personal
+    information. For residents of the European Economic Area (EEA) or the United Kingdom (UK) please also refer to our <a
+      href="/privacy/gdpr">GDPR statement</a> for regulations that apply to you.</p>
 
-  <h2>Table of Contents</h2>
+  <h2>Table of contents</h2>
   <ul>
-    <li><a href="#contact">Contact Details</a></li>
-    <li><a href="#information-collected">Information We Collect</a></li>
-    <li><a href="#why-collect">Why We Collect Your Information</a></li>
-    <li><a href="#lawful-bases">Our Lawful Bases for Processing Your Data</a></li>
-    <li><a href="#retention">Data Retention Period</a></li>
-    <li><a href="#sharing">Data Sharing and Disclosure</a></li>
-    <li><a href="#last-updated">Last Updated</a></li>
-    <br>
-    <li><a href="#rights">Your Rights</a></li>
-    <li><a href="#complaints">File a Complaint About Our Use of Your Data</a></li>
-
+    <li><a href="#contact">Contact details</a></li>
+    <li><a href="#information-collected">Information we collect</a></li>
+    <li><a href="#why-collect">Why we collect your information</a></li>
+    <li><a href="#lawful-bases">Our lawful bases for processing your data</a></li>
+    <li><a href="#sharing">Who we share your data with and why</a></li>
+    <li><a href="#retention">How long we keep your data for</a></li>
+    <li><a href="#last-updated">Last updated</a></li>
+    <li><a href="#rights">Your rights</a></li>
+    <li><a href="#accessibility">Accessibility</a></li
+    <li><a href="#complaints">Complain about our use of your data</a></li>
   </ul>
 
-  <h2 id="contact">Contact Details</h2>
+  <h2 id="contact">Contact details</h2>
   <p>
     If you have any concerns or questions regarding data protection, please reach out to us at <a
-    href="mailto:data@zenithhacks.org">data@zenithhacks.org</a>. We will respond to your inquiries as soon as possible.
+    href="mailto:data@zenithhacks.org">data@zenithhacks.org</a>. We'll respond to you as soon as possible.
     Please ensure that all emails adhere to our Code of Conduct.
   </p>
 
-  <h2 id="information-collected">Information We Collect</h2>
+  <h2 id="information-collected">Information we collect</h2>
   <p>
-    When you opt in to receive notifications via email using the form on our website, we collect, store, and process the
+    When you opt in to receive a notification via email using the form on our website, we collect, store, and process the
     following information:
   </p>
   <ul>
     <li><b>Email address:</b> Used to notify you when sign-ups open.</li>
-    <li><b>IP address:</b> For security purposes and spam prevention.</li>
-    <li><b>Approximate location:</b> The city and country inferred from your IP address.</li>
-    <li><b>Time of request:</b> To track and manage your request.</li>
+    <li><b>IP address, approximate location and time of request:</b> For security purposes and spam prevention.</li>
   </ul>
-
-  <h2 id="why-collect">Why We Collect Your Information</h2>
   <p>
-    We collect this information to:
+    We'll delete all of your data securely shortly after we have sent the email you signed up for, and no later than 12 months since you gave us the data, as outlined in the <a href="#retention">how long we keep your data for</a> section.
+  </p>
+
+  <h2 id="why-collect">Why we collect your information</h2>
+  <p>
+    We collect the information you give us to:
   </p>
   <ul>
-    <li>Notify you about the opening of sign-ups.</li>
+    <li>Provide the service you signed up for&mdash;for example, to send you an email when our sign up form opens.</li>
     <li>Ensure the security of our systems and prevent abuse or spam.</li>
     <li>Improve the quality of our services based on user patterns and preferences.</li>
   </ul>
 
-  <h2 id="lawful-bases">Our Lawful Bases for Processing Your Data</h2>
+  <h2 id="lawful-bases">Our lawful bases for processing your data</h2>
   <p>
     We process your data based on the consent you provide when submitting the sign-up notification form. We do not
     collect information from third parties, and all data is obtained directly from you or your device. If you do not opt
@@ -61,34 +61,35 @@
     otherwise.
   </p>
 
-  <h2 id="retention">Data Retention Period</h2>
+  <h2 id="sharing">Who we share your data with and why</h2>
   <p>
-    We retain your personal information in Google Cloud servers for up to 12 months, as outlined in the <a
-    href="#information-collected">Information We Collect</a> section. After this period,
-    your data will be permanently deleted. In most cases, your data is deleted shortly after
-    the notification email has been sent, but this is not guaranteed.
-  </p>
-
-  <h2 id="sharing">Data Sharing and Disclosure</h2>
-  <p>
-    We may share your information with the following entities. Note that these external organizations have their own
-    privacy policies, and we are not responsible for their actions:
+    We may share your information with the following entities:
   </p>
   <ul>
-    <li><b>Google:</b> We store your data on Google Cloud servers. By accepting our privacy policy you also consent to
-      <a href="https://cloud.google.com/terms/data-processing-addendum?hl=en">Google Clouds privacy policy</a>.
+    <li><b>Google:</b> We store your data on Google Cloud's servers. See
+      <a href="https://cloud.google.com/terms/data-processing-addendum?hl=en">Google Cloud's data processing addendum</a>.
     </li>
     <li><b>Safeguarding and Legal Obligations:</b> We may share your data with government agencies or legal
-      authorities when required by law or for safeguarding reasons. This does not include private entities.
+      authorities when required by law or for safeguarding reasons.
     </li>
     <li><b>With Your Consent:</b> Your data may be shared publicly on our website, social media, or other
-      marketing channels if you have explicitly given us consent.
+      marketing channels if you have told us you consent to this.
     </li>
   </ul>
-
-  <h2 id="rights">Your Rights</h2>
   <p>
-    You generally have the following rights under applicable data protection laws:
+    We may add or remove subprocessors at any time. They are under the same obligation as us to keep your data secure and to delete it when you or we request them to.
+  </p>
+  
+  <h2 id="retention">How long we keep your data for</h2>
+  <p>
+    We keep your personal information with our subprocesses for up to 12 months, as outlined in the <a
+    href="#information-collected">information we collect</a> section. However, we may delete your data sooner than this. After this period,
+    your data will be permanently deleted.
+  </p>
+
+  <h2 id="rights">Your rights</h2>
+  <p>
+    Your country may have data protection rights that apply to you. In most countries, you have the right to:
   </p>
   <ul>
     <li><b>Access:</b> Request a copy of your data.</li>
@@ -97,14 +98,22 @@
     <li><b>Restriction:</b> Request limitations on the processing of your data.</li>
     <li><b>Objection:</b> Object to certain types of data processing.</li>
   </ul>
+  <p>
+    If you would like to exercise any of your rights, see the <a href="contact">contact details</a> section of this page.
+  </p>
 
-  <h2 id="complaints">File a Complaint About Our Use of Your Data</h2>
+  <h2 id="complaints">Complain about our use of your data</h2>
   <p>
     If you have any concerns about how we handle your personal data or wish to have your data deleted, you can file a
     complaint by contacting us at the email provided at the top of this privacy policy. To verify the request, please
     contact us using the registered email address associated with the data, or provide proof that the data belongs to
-    you. Any additional information provided for the purpose of data deletion will not be saved, shared, or processed by
-    us.
+    you. Any additional information provided for the purpose of data deletion will be deleted after the request has been dealt with.
+  </p>
+  
+  <h2 id="accessibility">Accessibility</h2>
+  <p>
+    If you require an accessible version of this website, please email <a href="mailto:accessibility@zenithhacks.org">accessibility@zenithhacks.org</a> and we'll get back to you shortly.
+    Please ensure that all emails adhere to our Code of Conduct.
   </p>
 
   <h2 id="last-updated">Last Updated</h2>

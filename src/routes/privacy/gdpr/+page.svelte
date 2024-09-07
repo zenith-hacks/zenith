@@ -2,11 +2,11 @@
   import Page from '$lib/Page.svelte';
 </script>
 
-<Page title="GDPR Compliance">
-  <h1>GDPR Compliance Statement</h1>
+<Page title="GDPR compliance">
+  <h1>GDPR compliance statement</h1>
 
   <p>
-    Zenith Hacks and the Zenith Hacks Team (we, us) is committed to ensuring the privacy and protection of your personal
+    Zenith and the Zenith team (we, us) is committed to ensuring the privacy and protection of your personal
     data in compliance with the
     General Data Protection Regulation (GDPR).
     This statement explains your additional rights as a data subject under the GDPR.
@@ -18,7 +18,7 @@
   <p>
     The Zenith Hacks Team is the data controller responsible for the processing of your personal data. If you have any
     questions or concerns regarding the handling of your data, you may contact us at <a
-    href="mailto:gdpr@zenithhacks.org">gdpr@zenithhacks.org</a>. We will respond to your inquiries as soon as possible.
+    href="mailto:data@zenithhacks.org">data@zenithhacks.org</a>. We will respond to your inquiries as soon as possible.
     Please ensure that all emails adhere to our Code of Conduct.
   </p>
 
@@ -37,7 +37,7 @@
   <h2>Data Security</h2>
   <p>
     We take data security seriously and employ industry-standard measures to protect your personal information from
-    unauthorized access, misuse, or disclosure. Your data is stored on secure Google servers, <a
+    unauthorized access, misuse, or disclosure. Your data is stored on Google's servers, <a
     href="https://cloud.google.com/privacy/gdpr">which comply with GDPR
     regulations </a>. We do not share your personal data with third parties unless required by law or with your explicit
     consent.
@@ -67,7 +67,7 @@
   <h2>Exercising Your Rights</h2>
   <p>
     To exercise any of your rights under the GDPR, please contact us at <a href="mailto:data@zenithhacks.org">data@zenithhacks.org</a>.
-    We may require proof of identity to process your request and will respond within 30 days.
+    We may require proof that the data belongs to you before we can process your request. We will respond as soon as possible and no later than 30 days after we have recieved your request.
   </p>
 
   <h2>International Transfers</h2>
@@ -80,13 +80,13 @@
   <h2>Filing a Complaint</h2>
   <p>
     If you believe that we are not processing your personal data in accordance with the GDPR, you have the right to file
-    a complaint with your local data protection authority or supervisory authority in the European Union.
-    You may find their contact info <a href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en">here</a>.
+    a complaint with your <a href="https://www.edpb.europa.eu/about-edpb/about-edpb/members_en">local data protection authority or supervisory authority in the EEA</a>.
+    In the UK, this is the <a href="https://ico.org.uk/">ICO</a>.
   </p>
 
   <h2>Updates to This GDPR Compliance Statement</h2>
   <p>
     This GDPR Compliance Statement was last updated on the 7th of September 2024.
-    We may update this statement from time to time to reflect changes in our processing activities or legal obligations.
+    We may update this statement at any time to reflect changes in our processing activities or legal obligations.
   </p>
 </Page>
