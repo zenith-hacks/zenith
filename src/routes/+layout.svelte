@@ -46,7 +46,7 @@
         <p>
           Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
           81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
-          constitute an endorsement, implied or otherwise, of Hack Zenith 2025 by Hack Club.
+          constitute an endorsement, implied or otherwise.
         </p>
       </div>
       <div class="links">
@@ -59,7 +59,10 @@
       <div class="links">
         <p class="title">Legal</p>
         <ul>
+          <!-- TODO: Add link to Code of Conduct (which does not exist yet) -->
+          <li><a href="/404">Code of Conduct</a></li>
           <li><a href="/privacy">Privacy policy</a></li>
+          <li><a href="/privacy/gdpr">GDPR compliance</a></li>
         </ul>
       </div>
     </div>
