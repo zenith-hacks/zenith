@@ -10,7 +10,8 @@
   import Sphere from '$lib/Sphere.svelte';
   import OnePasswordLight from '$lib/logos/1PasswordLight.svg';
   import DisneyLight from '$lib/logos/DisneyLight.svg';
-  import RedBull from '$lib/logos/RedBull.svg';
+  // import RedBull from '$lib/logos/RedBull.svg';
+  import Desmos from '$lib/logos/Desmos.svg';
   import { enhance } from '$app/forms';
 
   let button: HTMLButtonElement;
@@ -151,7 +152,7 @@
     <img loading="lazy" src={OnePasswordLight} alt="1Password logo" />
     <img loading="lazy" src={DisneyLight} alt="Disney logo" />
     <!-- TODO: Get in contact with Code for Cause for their SVG logo -->
-    <!-- TODO: Get in contact with Desmos for their SVG logo -->
+    <img loading="lazy" src={Desmos} alt="Desmos logo" />
     <!-- TODO: Get in contact with Axure for their SVG logo -->
     <!-- <img loading="lazy" src={RedBull} alt="RedBull logo" /> -->
     <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
