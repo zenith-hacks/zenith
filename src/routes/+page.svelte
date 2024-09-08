@@ -88,8 +88,7 @@
     <div class="scenery-hill-wrapper" style="z-index: 3; --fill: var(--bg-10); --last-fill: var(--bg-20)">
       <Hill2></Hill2>
     </div>
-
-    <!-- TODO -->
+    
     <RotatingSphere style="z-index: 3" />
 
     <div class="scenery-hill-wrapper" style="z-index: 5; --fill: var(--bg); --last-fill: var(--bg-10)">
@@ -199,7 +198,7 @@
     z-index: 0;
     position: absolute;
     top: 0;
-    right: 0;
+    left: calc(max(1024px, 100vw - 100%));
   }
 
   /* Header styles */
@@ -252,7 +251,7 @@
     }
   }
 
-  @media (min-width: 1024px) and (min-height: 1024px) {
+  @media (min-width: 1024px) and (min-height: 640px) {
     h1 {
       font-size: 8em;
     }
@@ -260,7 +259,7 @@
     .zenith-header {
       padding: 4em;
     }
-
+    
     .scenery > :global(svg) {
       display: block;
     }
