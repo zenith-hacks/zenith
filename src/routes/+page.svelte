@@ -48,7 +48,7 @@
         };
       }}
     >
-      <p>Get exactly one (1) email when sign ups open:</p>
+      <p>Get exactly one <span aria-hidden="true">(1)</span> email when sign ups open:</p>
       <label for="email">Your email</label>
       <div class="email-form">
         <input
