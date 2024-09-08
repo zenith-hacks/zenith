@@ -167,6 +167,16 @@
   <div class="sponsors">
     <p>John Tan-Aristy</p>
   </div>
+  
+  <div class="info">
+    <p>
+      If you'd like to help out, you can
+      <a href="https://hcb.hackclub.com/donations/start/zenithhacks">donate to us as an individual</a>
+      or get in touch at
+      <a href="mailto:team@zenithhacks.org">team@zenithhacks.org</a>.
+      Thank you!
+    </p>
+  </div>
 </article>
 
 <style>
