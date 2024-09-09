@@ -54,6 +54,7 @@
         <ul>
           <li><a href="https://hackclub.com/slack/">Join us on the Hack Club Slack</a></li>
           <li><a href="https://github.com/zenith-hacks/zenith">View this page's source code</a></li>
+          <li><a href="https://hcb.hackclub.com/zenithhacks">Look at our financials</a></li>
         </ul>
       </div>
       <div class="links">

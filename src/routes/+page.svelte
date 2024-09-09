@@ -11,6 +11,7 @@
   import OnePasswordLight from '$lib/logos/1PasswordLight.svg';
   import DisneyLight from '$lib/logos/DisneyLight.svg';
   // import RedBull from '$lib/logos/RedBull.svg';
+  import CodeForCause from '$lib/logos/CodeForCause.svg';
   import Desmos from '$lib/logos/Desmos.svg';
   import { enhance } from '$app/forms';
 
@@ -47,7 +48,7 @@
         };
       }}
     >
-      <p>Get exactly one (1) email when sign ups open:</p>
+      <p>Get exactly one <span aria-hidden="true">(1)</span> email when sign ups open:</p>
       <label for="email">Your email</label>
       <div class="email-form">
         <input
@@ -87,8 +88,7 @@
     <div class="scenery-hill-wrapper" style="z-index: 3; --fill: var(--bg-10); --last-fill: var(--bg-20)">
       <Hill2></Hill2>
     </div>
-
-    <!-- TODO -->
+    
     <RotatingSphere style="z-index: 3" />
 
     <div class="scenery-hill-wrapper" style="z-index: 5; --fill: var(--bg); --last-fill: var(--bg-10)">
@@ -151,7 +151,7 @@
   <div class="sponsors">
     <img loading="lazy" src={OnePasswordLight} alt="1Password logo" />
     <img loading="lazy" src={DisneyLight} alt="Disney logo" />
-    <!-- TODO: Get in contact with Code for Cause for their SVG logo -->
+    <img loading="lazy" src={CodeForCause} alt="Code for Cause logo" />
     <img loading="lazy" src={Desmos} alt="Desmos logo" />
     <!-- TODO: Get in contact with Axure for their SVG logo -->
     <!-- <img loading="lazy" src={RedBull} alt="RedBull logo" /> -->
@@ -165,6 +165,16 @@
 
   <div class="sponsors">
     <p>John Tan-Aristy</p>
+  </div>
+  
+  <div class="info">
+    <p>
+      If you'd like to help out, you can
+      <a href="https://hcb.hackclub.com/donations/start/zenithhacks">donate to us as an individual</a>
+      or get in touch at
+      <a href="mailto:team@zenithhacks.org">team@zenithhacks.org</a>.
+      Thank you!
+    </p>
   </div>
 </article>
 
@@ -188,7 +198,7 @@
     z-index: 0;
     position: absolute;
     top: 0;
-    right: 0;
+    left: calc(max(1024px, 100vw - 100%));
   }
 
   /* Header styles */
@@ -241,7 +251,7 @@
     }
   }
 
-  @media (min-width: 1024px) and (min-height: 1024px) {
+  @media (min-width: 1024px) and (min-height: 640px) {
     h1 {
       font-size: 8em;
     }
@@ -249,7 +259,7 @@
     .zenith-header {
       padding: 4em;
     }
-
+    
     .scenery > :global(svg) {
       display: block;
     }
