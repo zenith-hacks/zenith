@@ -45,11 +45,13 @@
   <h2 id="information-collected">Information we collect</h2>
   <p>
     When you opt in to receive a notification via email using the form on our website, we collect, store, and process
-    the following information:
+    your email address to notify you when sign-ups open. We also collect, store and process the following information
+    for security purposes and to prevent spam:
   </p>
   <ul>
-    <li><b>Email address:</b> Used to notify you when sign-ups open.</li>
-    <li><b>IP address, approximate location and time of request:</b> For security purposes and spam prevention.</li>
+    <li>Your IP address</li>
+    <li>Your approximate location</li>
+    <li>When you sent the request</li>
   </ul>
   <p>
     We'll delete all of your data securely shortly after we have sent the email you signed up for, and no later than 12
