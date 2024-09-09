@@ -98,36 +98,35 @@
 </div>
 
 <article class="info">
-  <h2>What is Zenith?</h2>
   <div>
     <div>
+  <h2>What is Zenith?</h2>
       <p>
         Zenith 2025 is a hackathon in San Francisco organised by and for teens. Join us for 2 days to share and
         collaborate with like minded individuals in a supportive, mistake friendly environment.
       </p>
     </div>
-    <div class="image-box"></div>
+    <div><img class="image-box" src="https://cdn.britannica.com/41/196341-050-6B55B7E7/solar-eclipse-moon-sun-space-astronomy.jpg" alt="A photo of a solar eclipse"></div>
   </div>
 </article>
 
 <article class="info info-right">
-  <h2>What's a hackathon?</h2>
   <div>
     <div>
+  <h2>What is a hackathon?</h2>
       <p>
         <!-- TODO: Change this -->
-        A hackathon is a social event focused on coding where teenagers come together to learn, build, and share their results
-        with others!
+        A hackathon is a social event focused on coding where teenagers come together to learn, build, and share their results with others!
       </p>
     </div>
-    <div class="image-box"></div>
+    <div><img class="image-box" src="https://miro.medium.com/v2/resize:fit:7940/1*i5VHWsPa9k-u9ffVz0CQdw.jpeg" alt="Room full of teens"></div>
   </div>
 </article>
 
 <article class="info">
-  <h2>Can I come?</h2>
   <div>
     <div>
+  <h2>Can I come?</h2>
       <p>You'll need to bring a laptop and an enthusiasm for technology!</p>
       <br />
       <p>
