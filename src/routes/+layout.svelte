@@ -60,8 +60,7 @@
       <div class="links">
         <p class="title">Legal</p>
         <ul>
-          <!-- TODO: Add link to Code of Conduct (which does not exist yet) -->
-          <li><a href="/404">Code of Conduct</a></li>
+          <li><a href="/conduct">Code of Conduct</a></li>
           <li><a href="/privacy">Privacy policy</a></li>
           <li><a href="/privacy/gdpr">GDPR compliance</a></li>
         </ul>
