@@ -92,8 +92,9 @@
     </li>
   </ul>
   <p>
-    We may add or remove subprocessors at any time. They are under the same obligation as us to keep your data secure
-    and to delete it when you or we request them to.
+    We may add or remove subprocessors at any time. While they are under the same obligation as us to keep your data
+    secure and to delete it when you or we request them to, we're not responsible for their actions, omissions or
+    conduct of our subprocessors to the fullest extent applicable by law.
   </p>
 
   <h2 id="retention">How long we keep your data for</h2>
