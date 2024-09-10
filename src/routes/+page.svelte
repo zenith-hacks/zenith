@@ -144,18 +144,18 @@
 <article>
   <div class="info">
     <h2>Our sponsors</h2>
-    <p>This event wouldn't have been possible without the help of:</p>
+    <p>This event wouldn't be possible without the generous support of our sponsors</p>
   </div>
 
   <div class="sponsors">
-    <img loading="lazy" src={OnePasswordLight} alt="1Password logo" />
     <img loading="lazy" src={DisneyLight} alt="Disney logo" />
-    <img loading="lazy" src={CodeForCause} alt="Code for Cause logo" />
+    <img loading="lazy" src="src/lib/logos/RedBull.svg" alt="RedBull logo" />
     <img loading="lazy" src={Desmos} alt="Desmos logo" />
-    <!-- TODO: Get in contact with Axure for their SVG logo -->
-    <!-- <img loading="lazy" src={RedBull} alt="RedBull logo" /> -->
-    <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
-    <!-- TODO: Get in contact with Google for their SVG logo -->
+    <img loading="lazy" src={CodeForCause} alt="Code for Cause logo" />
+    <img loading="lazy" src={OnePasswordLight} alt="1Password logo" />
+    <img loading="lazy" src="src/lib/logos/axure.svg" alt="Axure logo">
+    <img loading="lazy" src="src/lib/logos/codecrafters.png" alt="CodeCrafters logo">
+    <img loading="lazy" src="src/lib/logos/interview-buddy.png" alt="Interview Buddy logo">
   </div>
 
   <div class="info">
@@ -163,7 +163,7 @@
   </div>
 
   <div class="sponsors">
-    <p>John Tan-Aristy</p>
+    <p style="max-width: 700px; margin: auto;">John Tan-Aristy</p>
   </div>
   
   <div class="info">
