@@ -43,26 +43,49 @@
       <a href="/" aria-label="Go to the homepage"><LogoLarge></LogoLarge></a>
       <div>
         <p class="title">Zenith Hacks</p>
-        <p>
-          Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
-          81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
-          constitute an endorsement, implied or otherwise, of Hack Zenith 2025 by Hack Club.
-        </p>
+         <p>
+            <span  style="color: #999">HCB</span> <a href='https://hcb.hackclub.com/zenithhacks'>Zenith Hacks</a>
+         </p>
+         <p>
+            <span  style="color: #999">GitHub</span> <a href='https://github.com/zenith-hacks'>@zenith-hacks</a>
+         </p>
+         <p>
+            <span  style="color: #999">Slack</span> <a href='https://hackclub.slack.com/archives/C07HC6711PX'>#hack-zenith-2025</a>
+         </p>
+         <p>
+            <span  style="color: #999">Email</span> <a href='mailto:team@zenithhacks.org'>team@zenithhacks.org</a>
+         </p>
       </div>
       <div class="links">
-        <p class="title">Links</p>
+        <p class="title">Social</p>
         <ul>
-          <li><a href="https://hackclub.com/slack/">Join us on the Hack Club Slack</a></li>
-          <li><a href="https://github.com/zenith-hacks/zenith">View this page's source code</a></li>
-          <li><a href="https://hcb.hackclub.com/zenithhacks">Look at our financials</a></li>
+         <p>
+            <span  style="color: #999">Instagram</span> <a href='https://instagram.com/zenith_hacks'>@zenith_hacks</a>
+         </p>
+         <p>
+            <span style="color: #999">Threads</span> <a href='https://threads.net/@zenith_hacks'>@zenith_hacks</a>
+         </p>
         </ul>
       </div>
       <div class="links">
         <p class="title">Legal</p>
         <ul>
           <li><a href="/privacy">Privacy policy</a></li>
+          <li><p><a class='hover:underline' href='/code-of-conduct'>Code of Conduct</a></p>
+         <div style="color: #999">
+            <div>Copyright © 2024 Zenith.</div>
+         </div></li>
         </ul>
       </div>
+      
+    </div>
+    <div style="margin: 2rem 10rem 0 10rem">
+            <p>
+          Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
+          81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
+          constitute an endorsement, implied or otherwise, of Hack Zenith 2025 by Hack Club.
+        </p>
+
     </div>
   </footer>
 </div>
