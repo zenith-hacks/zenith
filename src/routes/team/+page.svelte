@@ -1,5 +1,5 @@
 <script>
-  import Rushil from '$lib/people/Rushil.svg';
+  import R from '$lib/people/R.svg';
   import Briyan from '$lib/people/Briyan.svg';
   import Leo from '$lib/people/Leo.svg';
   import Mahad from '$lib/people/Mahad.svg';
@@ -16,11 +16,11 @@
   <h1>Meet the Zenith team</h1>
 
   <article>
-    <img src={Rushil} alt="Rushil's avatar against a navy blue background. His head is a triangle" />
+    <img src={R} alt="R's avatar against a navy blue background. His head is a triangle" />
     <div class="profile-card">
-      <h2>Rushil</h2>
+      <h2>R</h2>
       <p class="tagline">Event lead</p>
-      <q class="description">Something something description here. They haven't answered me yet.</q>
+      <q class="description">Hey! I'm R, I own a nonprofit and I love doing new things! Let's meet at Zenith!</q>
       <p>When asked for a color and a shape, he picked navy blue and a triangle.</p>
     </div>
   </article>
