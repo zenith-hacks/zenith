@@ -58,8 +58,9 @@
         </ul>
       </div>
       <div class="links">
-        <p class="title">Legal</p>
+        <p class="title">About</p>
         <ul>
+          <li><a href="/team">Meet the Zenith team</a></li>
           <li><a href="/privacy">Privacy policy</a></li>
         </ul>
       </div>
