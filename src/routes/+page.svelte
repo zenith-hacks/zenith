@@ -411,7 +411,7 @@
     justify-content: center;
     align-items: center;
     background: rgb(var(--fg));
-    box-shadow: 0.5em 0.5em rgb(var(--bg-20));
+    box-shadow: 0.5em 0.5em rgb(var(--bg-30));
     min-height: 200px;
   }
 
@@ -433,7 +433,7 @@
     }
 
     .info-right .image-box {
-      box-shadow: -0.5em 0.5em rgb(var(--bg-20));
+      box-shadow: -0.5em 0.5em rgb(var(--bg-30));
     }
   }
 
@@ -456,8 +456,8 @@
 
   .sponsors > * {
     flex: 1 1 auto;
-    background: rgb(var(--bg-30));
-    box-shadow: 0.5rem 0.5rem rgb(var(--bg-20));
+    background: rgb(var(--bg-20));
+    box-shadow: 0.5rem 0.5rem rgb(var(--bg-30));
     padding: 1rem;
   }
 
