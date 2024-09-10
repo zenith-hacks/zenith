@@ -21,7 +21,7 @@
     <div class="profile-card">
       <h2>R</h2>
       <p class="tagline">Event lead</p>
-      <q class="description">Hey! I'm R, I own a nonprofit and I love doing new things! Let's meet at Zenith!</q>
+      <blockquote class="description">Hey! I'm R, I own a nonprofit and I love doing new things! Let's meet at Zenith!</blockquote>
       <p>When asked for a color and a shape, he picked navy blue and a triangle.</p>
     </div>
   </article>
@@ -31,7 +31,7 @@
     <div class="profile-card">
       <h2>Leo</h2>
       <p class="tagline">Safeguarding lead</p>
-      <q class="description">Something something description here. They haven't answered me yet.</q>
+      <blockquote class="description">Something something description here. They haven't answered me yet.</blockquote>
       <p>When asked for a color and a shape, he picked purple and an octagon.</p>
     </div>
   </article>
@@ -41,7 +41,7 @@
     <div class="profile-card">
       <h2>Sarah</h2>
       <p class="tagline">Data privacy coordinator, design lead and web developer</p>
-      <q class="description">Hi! I'm Sarah. I made the website you're looking at.</q>
+      <blockquote class="description">Hi! I'm Sarah. I made the website you're looking at.</blockquote>
       <p>
         She wasn't asked for a color and a shape because she would be talking to herself.
         She picked an icosahedron, and she thinks everyone else's choices are boring. (No offense.)
@@ -54,7 +54,7 @@
     <div class="profile-card">
       <h2>Hamza</h2>
       <p class="tagline">Web developer</p>
-      <q class="description">Something something description here. They haven't answered me yet.</q>
+      <blockquote class="description">Something something description here. They haven't answered me yet.</blockquote>
       <p>When asked for a color and a shape, he picked orange and a hexagon.</p>
     </div>
   </article>
@@ -64,7 +64,7 @@
     <div class="profile-card">
       <h2>Mahad</h2>
       <p class="tagline">Sponsor outreach and developer</p>
-      <q class="description">I'm a 15-year-old high schooler and software engineer from the UK!</q>
+      <blockquote class="description">I'm a 15-year-old high schooler and software engineer from the UK!</blockquote>
       <p>When asked for a color and a shape, he picked light blue and a hexagon.</p>
     </div>
   </article>
@@ -74,7 +74,7 @@
     <div class="profile-card">
       <h2>Karl</h2>
       <p class="tagline">Hardware design</p>
-      <q class="description">Wdym</q>
+      <blockquote class="description">Wdym</blockquote>
       <p>When asked for a color and a shape that isn't round, he was stubborn, which is why he doesn't have a head.</p>
     </div>
   </article>
@@ -84,7 +84,7 @@
     <div class="profile-card">
       <h2>Briyan</h2>
       <p class="tagline">Sponsor outreach</p>
-      <q class="description">Hey there! I'm Briyan Dyju from the United Arab Emirates and I'll be helping organising Zenith this season!</q>
+      <blockquote class="description">Hey there! I'm Briyan Dyju from the United Arab Emirates and I'll be helping organising Zenith this season!</blockquote>
       <p>When asked for a color and a shape, he was confused. We eventually settled on yellow and a square.</p>
     </div>
   </article>
@@ -94,7 +94,7 @@
     <div class="profile-card">
       <h2>Nitika</h2>
       <p class="tagline">Helper</p>
-      <q class="description">Something something description here. They haven't answered me yet.</q>
+      <blockquote class="description">Something something description here. They haven't answered me yet.</blockquote>
       <p>When asked for a color and a shape, she picked light pink and a heart. Despite technically not being allowed, I accepted it anyway.</p>
     </div>
   </article>
