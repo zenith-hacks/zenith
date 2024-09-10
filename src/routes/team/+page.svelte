@@ -8,6 +8,10 @@
   import Karl from '$lib/people/Karl.svg';
 </script>
 
+<svelte:head>
+  <title>Meet the Zenith team - Zenith Hacks</title>
+</svelte:head>
+
 <main>
   <h1>Meet the Zenith team</h1>
 
