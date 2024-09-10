@@ -89,7 +89,7 @@
     </div>
   </article>
   
-  <article>
+  <article class="right">
     <img src={Nitika} alt="Nitika's avatar against a light pink background. Her head is a heart" />
     <div class="profile-card">
       <h2>Nitika</h2>
