@@ -21,21 +21,26 @@
     <div class="profile-card">
       <h2>R</h2>
       <p class="tagline">Event lead</p>
-      <blockquote class="description">Hey! I'm R, I own a nonprofit and I love doing new things! Let's meet at Zenith!</blockquote>
+      <blockquote class="description">
+        Hey! I'm R, I own a nonprofit and I love doing new things! Let's meet at Zenith!
+      </blockquote>
       <p>When asked for a color and a shape, he picked navy blue and a triangle.</p>
     </div>
   </article>
-  
+
   <article class="right">
     <img src={Leo} alt="Leo's avatar against a dark purple background. His head is an octagon" />
     <div class="profile-card">
       <h2>Leo</h2>
       <p class="tagline">Safeguarding lead</p>
-      <blockquote class="description">Something something description here. They haven't answered me yet.</blockquote>
+      <blockquote class="description">
+        I'm Leo - a student, developer & nerd. You might find me coding AI tools, working on open source projects, or
+        making random stuff online.
+      </blockquote>
       <p>When asked for a color and a shape, he picked purple and an octagon.</p>
     </div>
   </article>
-  
+
   <article>
     <img src={Sarah} alt="Sarah's avatar against a pink background. Her head is an icosahedron" />
     <div class="profile-card">
@@ -43,12 +48,12 @@
       <p class="tagline">Data privacy coordinator, design lead and web developer</p>
       <blockquote class="description">Hi! I'm Sarah. I made the website you're looking at.</blockquote>
       <p>
-        She wasn't asked for a color and a shape because she would be talking to herself.
-        She picked an icosahedron, and she thinks everyone else's choices are boring. (No offense.)
+        She wasn't asked for a color and a shape because she would be talking to herself. She picked an icosahedron, and
+        she thinks everyone else's choices are boring. (No offense.)
       </p>
     </div>
   </article>
-  
+
   <article class="right">
     <img src={Hamza} alt="Hamza's avatar against a dark purple background. His head is an hexagon" />
     <div class="profile-card">
@@ -58,7 +63,7 @@
       <p>When asked for a color and a shape, he picked orange and a hexagon.</p>
     </div>
   </article>
-  
+
   <article>
     <img src={Mahad} alt="Mahad's avatar against a navy blue background. His head is a hexagon" />
     <div class="profile-card">
@@ -68,7 +73,7 @@
       <p>When asked for a color and a shape, he picked light blue and a hexagon.</p>
     </div>
   </article>
-  
+
   <article class="right">
     <img src={Karl} alt="Karl's avatar against a green background. His head is missing" />
     <div class="profile-card">
@@ -78,24 +83,29 @@
       <p>When asked for a color and a shape that isn't round, he was stubborn, which is why he doesn't have a head.</p>
     </div>
   </article>
-  
+
   <article>
     <img src={Briyan} alt="Briyan's avatar against a navy blue background. His head is a square" />
     <div class="profile-card">
       <h2>Briyan</h2>
       <p class="tagline">Sponsor outreach</p>
-      <blockquote class="description">Hey there! I'm Briyan Dyju from the United Arab Emirates and I'll be helping organising Zenith this season!</blockquote>
+      <blockquote class="description">
+        Hey there! I'm Briyan Dyju from the United Arab Emirates and I'll be helping organising Zenith this season!
+      </blockquote>
       <p>When asked for a color and a shape, he was confused. We eventually settled on yellow and a square.</p>
     </div>
   </article>
-  
+
   <article class="right">
     <img src={Nitika} alt="Nitika's avatar against a light pink background. Her head is a heart" />
     <div class="profile-card">
       <h2>Nitika</h2>
       <p class="tagline">Helper</p>
       <blockquote class="description">Something something description here. They haven't answered me yet.</blockquote>
-      <p>When asked for a color and a shape, she picked light pink and a heart. Despite technically not being allowed, I accepted it anyway.</p>
+      <p>
+        When asked for a color and a shape, she picked light pink and a heart. Despite technically not being allowed, I
+        accepted it anyway.
+      </p>
     </div>
   </article>
 </main>
@@ -106,12 +116,12 @@
     margin: auto;
     padding: 8em 2em;
     max-width: 100%;
-    
+
     display: flex;
     flex-direction: column;
     gap: 4em;
   }
-  
+
   article {
     display: flex;
     flex-direction: column;
@@ -119,22 +129,22 @@
     align-items: flex-start;
     gap: 2em;
   }
-  
+
   @media (min-width: 1024px) {
     article {
       flex-direction: row;
     }
-    
+
     .right {
       flex-direction: row-reverse;
     }
   }
-  
+
   article > img {
     flex: 0;
     min-width: min-content;
   }
-  
+
   .profile-card {
     flex: 1 1 0;
     width: 100%;
@@ -143,21 +153,21 @@
     box-shadow: 0.5em 0.5em rgb(var(--bg-30));
     min-width: min-content;
   }
-  
+
   p {
     margin: 0.5em 0;
   }
-  
+
   .description {
     padding-left: 1em;
     border-left: 2px solid rgb(var(--fg));
   }
-  
+
   .description::before {
-    content: "\201C";
+    content: '\201C';
   }
-  
+
   .description::after {
-    content: "\201D";
+    content: '\201D';
   }
 </style>
