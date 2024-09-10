@@ -1,18 +1,18 @@
 <script lang="ts">
+  // import RedBull from '$lib/logos/RedBull.svg';
+  import Arrow from '$lib/Arrow.svelte';
+  import Check from '$lib/Check.svelte';
+  import CodeForCause from '$lib/logos/CodeForCause.svg';
+  import Desmos from '$lib/logos/Desmos.svg';
+  import DisneyLight from '$lib/logos/DisneyLight.svg';
   import Hill0 from '$lib/hills/Hill0.svelte';
   import Hill1 from '$lib/hills/Hill1.svelte';
   import Hill2 from '$lib/hills/Hill2.svelte';
   import Hill3 from '$lib/hills/Hill3.svelte';
-  import Arrow from '$lib/Arrow.svelte';
-  import Check from '$lib/Check.svelte';
+  import OnePasswordLight from '$lib/logos/1PasswordLight.svg';
   import RotatingSphere from './RotatingSphere.svelte';
   import Sparkles from '$lib/Sparkles.svelte';
   import Sphere from '$lib/Sphere.svelte';
-  import OnePasswordLight from '$lib/logos/1PasswordLight.svg';
-  import DisneyLight from '$lib/logos/DisneyLight.svg';
-  // import RedBull from '$lib/logos/RedBull.svg';
-  import CodeForCause from '$lib/logos/CodeForCause.svg';
-  import Desmos from '$lib/logos/Desmos.svg';
   import { enhance } from '$app/forms';
 
   let button: HTMLButtonElement;
@@ -106,7 +106,7 @@
         collaborate with like minded individuals in a supportive, mistake friendly environment.
       </p>
     </div>
-    <div><img class="image-box" src="https://cdn.britannica.com/41/196341-050-6B55B7E7/solar-eclipse-moon-sun-space-astronomy.jpg" alt="A photo of a solar eclipse"></div>
+    <div><img class="image-box" src="src/lib/images/eclipse.webp" alt="A photo of a solar eclipse"></div>
   </div>
 </article>
 
@@ -119,7 +119,7 @@
         A hackathon is a social event focused on coding where teenagers come together to learn, build, and share their results with others!
       </p>
     </div>
-    <div><img class="image-box" src="https://miro.medium.com/v2/resize:fit:7940/1*i5VHWsPa9k-u9ffVz0CQdw.jpeg" alt="Room full of teens"></div>
+    <div><img class="image-box" src="src/lib/images/hackathon.jpg" alt="Room full of teens hacking"></div>
   </div>
 </article>
 
@@ -130,9 +130,7 @@
       <p>You'll need to bring a laptop and an enthusiasm for technology!</p>
       <br />
       <p>
-        However, we understand that not everyone can afford to come to Zenith. Thanks to our sponsors, we're able to pay
-        for your travels if you can't pay for your travels&mdash;even if you live outside of the US. We've got limited
-        funds, so apply early if you need help with paying for travel.
+        However, we understand that not everyone can afford to come to Zenith. Thanks to our sponsors, we're able to pay for your travels if you can't pay for your travels&mdash;even if you live outside of the US. We've got limited funds, so apply early if you need help with paying for travel.
       </p>
     </div>
     <div class="image-box">

@@ -44,26 +44,26 @@
       <div>
         <p class="title">Zenith Hacks</p>
          <p>
-            <span  style="color: #999">HCB</span> <a href='https://hcb.hackclub.com/zenithhacks'>Zenith Hacks</a>
+            <span class="footer-faint">HCB</span> <a href='https://hcb.hackclub.com/zenithhacks'>Zenith Hacks</a>
          </p>
          <p>
-            <span  style="color: #999">GitHub</span> <a href='https://github.com/zenith-hacks'>@zenith-hacks</a>
+            <span class="footer-faint">GitHub</span> <a href='https://github.com/zenith-hacks'>@zenith-hacks</a>
          </p>
          <p>
-            <span  style="color: #999">Slack</span> <a href='https://hackclub.slack.com/archives/C07HC6711PX'>#hack-zenith-2025</a>
+            <span class="footer-faint">Slack</span> <a href='https://hackclub.slack.com/archives/C07HC6711PX'>#hack-zenith-2025</a>
          </p>
          <p>
-            <span  style="color: #999">Email</span> <a href='mailto:team@zenithhacks.org'>team@zenithhacks.org</a>
+            <span class="footer-faint">Email</span> <a href='mailto:team@zenithhacks.org'>team@zenithhacks.org</a>
          </p>
       </div>
       <div class="links">
         <p class="title">Social</p>
         <ul>
          <p>
-            <span  style="color: #999">Instagram</span> <a href='https://instagram.com/zenith_hacks'>@zenith_hacks</a>
+            <span class="footer-faint">Instagram</span> <a href='https://instagram.com/zenith_hacks'>@zenith_hacks</a>
          </p>
          <p>
-            <span style="color: #999">Threads</span> <a href='https://threads.net/@zenith_hacks'>@zenith_hacks</a>
+            <span class="footer-faint">Threads</span> <a href='https://threads.net/@zenith_hacks'>@zenith_hacks</a>
          </p>
         </ul>
       </div>
@@ -71,8 +71,7 @@
         <p class="title">Legal</p>
         <ul>
           <li><a href="/privacy">Privacy policy</a></li>
-          <li><p><a class='hover:underline' href='/code-of-conduct'>Code of Conduct</a></p>
-         <div style="color: #999">
+         <div class="footer-faint">
             <div>Copyright © 2024 Zenith.</div>
          </div></li>
         </ul>
@@ -287,5 +286,9 @@
     flex-direction: column;
     min-height: 100vh;
     min-width: 100vw;
+  }
+
+  .footer-faint {
+    color: #999;
   }
 </style>
