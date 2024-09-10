@@ -17,7 +17,7 @@
       <h2>Rushil</h2>
       <p class="tagline">Event lead</p>
       <p class="description">Something something description here. They haven't answered me yet.</p>
-      <p>When asked for a colour and a shape, he picked navy blue and a triangle.</p>
+      <p>When asked for a color and a shape, he picked navy blue and a triangle.</p>
     </div>
   </article>
   
@@ -27,7 +27,7 @@
       <h2>Leo</h2>
       <p class="tagline">Safeguarding lead</p>
       <p class="description">Something something description here. They haven't answered me yet.</p>
-      <p>When asked for a colour and a shape, he picked purple and an octagon.</p>
+      <p>When asked for a color and a shape, he picked purple and an octagon.</p>
     </div>
   </article>
   
@@ -38,7 +38,7 @@
       <p class="tagline">Data privacy coordinator, design lead and web developer</p>
       <p class="description">Hi! I'm Sarah. I made the website you're looking at.</p>
       <p>
-        She wasn't asked for a colour and a shape because she would be talking to herself.
+        She wasn't asked for a color and a shape because she would be talking to herself.
         She picked an icosahedron, and she thinks everyone else's choices are boring. (No offense.)
       </p>
     </div>
@@ -50,7 +50,7 @@
       <h2>Hamza</h2>
       <p class="tagline">Web developer</p>
       <p class="description">Something something description here. They haven't answered me yet.</p>
-      <p>When asked for a colour and a shape, he picked orange and a hexagon.</p>
+      <p>When asked for a color and a shape, he picked orange and a hexagon.</p>
     </div>
   </article>
   
@@ -60,7 +60,7 @@
       <h2>Mahad</h2>
       <p class="tagline">Sponsor outreach and developer</p>
       <p class="description">I'm a 15-year-old high schooler and software engineer from the UK!</p>
-      <p>When asked for a colour and a shape, he picked light blue and a hexagon.</p>
+      <p>When asked for a color and a shape, he picked light blue and a hexagon.</p>
     </div>
   </article>
   
@@ -70,7 +70,7 @@
       <h2>Karl</h2>
       <p class="tagline">Hardware design</p>
       <p class="description">Wdym</p>
-      <p>When asked for a colour and a shape, he was stubborn, which is why he doesn't have a head.</p>
+      <p>When asked for a color and a shape, he was stubborn, which is why he doesn't have a head.</p>
     </div>
   </article>
   
@@ -80,7 +80,7 @@
       <h2>Briyan</h2>
       <p class="tagline">Sponsor outreach</p>
       <p class="description">Hey there! I'm Briyan Dyju from the United Arab Emirates and I'll be helping organising Zenith this season!</p>
-      <p>When asked for a colour and a shape, he was confused. We eventually settled on yellow and a square.</p>
+      <p>When asked for a color and a shape, he was confused. We eventually settled on yellow and a square.</p>
     </div>
   </article>
 </main>
