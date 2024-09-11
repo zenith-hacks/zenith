@@ -167,6 +167,7 @@
     <p>John Tan-Aristy</p>
     <p>Sarah</p>
     <p>HackSchools Foundation</p>
+    <p>Jakub Wojtak</p>
   </div>
   
   <div class="info">
