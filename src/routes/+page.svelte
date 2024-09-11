@@ -165,6 +165,7 @@
 
   <div class="sponsors">
     <p>John Tan-Aristy</p>
+    <p>HackSchools Foundation</p>
   </div>
   
   <div class="info">
