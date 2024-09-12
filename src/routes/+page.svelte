@@ -78,7 +78,7 @@
       </div>
       <p class="legal">
         We collect your IP address and approximate location.
-        By submitting, you agree that you've read your <a href="/privacy">privacy policy</a>.
+        By submitting, you agree that you've read our <a href="/privacy">privacy policy</a>.
       </p>
     </form>
   </div>
@@ -241,10 +241,7 @@
   .legal {
     opacity: 90%;
     font-size: 0.8em;
-  }
-
-  .legal > a:hover {
-    text-decoration: underline;
+    max-width: 100%;
   }
 
   @media (min-width: 640px) and (min-height: 640px) {

@@ -88,6 +88,7 @@
       url('/fonts/InstrumentSans-asciionly-subset-instanced.woff2') format('woff2');
     font-display: swap;
   }
+  
   html {
     scrollbar-width: thin;
     scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5);
@@ -115,6 +116,7 @@
       transition: none;
     }
   }
+  
   :global(:root) {
     font-family: 'Zenith Sans ASCII', 'Zenith Sans', system-ui, sans-serif;
     line-height: 1.5;
@@ -249,13 +251,17 @@
     padding: 4em;
     min-width: 100vw;
   }
+  
+  footer > * {
+    margin: auto;
+    max-width: 1024px;
+  }
 
   .footer-inner {
     display: flex;
     flex-direction: column;
     gap: 4em;
-    margin: auto;
-    max-width: 1024px;
+    margin-bottom: 2em;
   }
 
   @media (min-width: 1024px) {
