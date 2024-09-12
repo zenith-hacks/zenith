@@ -13,6 +13,11 @@
   // import RedBull from '$lib/logos/RedBull.svg';
   import CodeForCause from '$lib/logos/CodeForCause.svg';
   import Desmos from '$lib/logos/Desmos.svg';
+  import Axure from '$lib/logos/Axure.svg';
+  import CodeCrafters from '$lib/logos/CodeCrafters.png';
+  import InterviewBuddy from '$lib/logos/InterviewBuddy.png';
+  import Eclipse from '$lib/images/eclipse.webp';
+  import Hackathon from '$lib/images/hackathon.jpg';
   import { enhance } from '$app/forms';
 
   let button: HTMLButtonElement;
@@ -72,7 +77,8 @@
         </button>
       </div>
       <p class="legal">
-        By submitting, you confirm that you agree to and have read our <a href="/privacy">privacy policy</a>
+        We collect your IP address and approximate location.
+        By submitting, you agree that you've read our <a href="/privacy">privacy policy</a>.
       </p>
     </form>
   </div>
@@ -106,7 +112,7 @@
         collaborate with like minded individuals in a supportive, mistake friendly environment.
       </p>
     </div>
-    <div class="image-box"></div>
+    <img class="image-box" src={Eclipse} alt="Eclipse" />
   </div>
 </article>
 
@@ -120,7 +126,7 @@
         with others!
       </p>
     </div>
-    <div class="image-box"></div>
+    <img class="image-box" src={Hackathon} alt="A hackathon. There are tables arranged in rows and people with laptops sitting at them." />
   </div>
 </article>
 
@@ -153,10 +159,10 @@
     <img loading="lazy" src={DisneyLight} alt="Disney logo" />
     <img loading="lazy" src={CodeForCause} alt="Code for Cause logo" />
     <img loading="lazy" src={Desmos} alt="Desmos logo" />
-    <!-- TODO: Get in contact with Axure for their SVG logo -->
+    <img loading="lazy" src={Axure} alt="Axure logo" />
+    <img loading="lazy" src={CodeCrafters} alt="CodeCrafters logo" />
+    <img loading="lazy" src={InterviewBuddy} alt="InterviewBuddy logo" />
     <!-- <img loading="lazy" src={RedBull} alt="RedBull logo" /> -->
-    <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
-    <!-- TODO: Get in contact with Google for their SVG logo -->
   </div>
 
   <div class="info">
@@ -165,6 +171,11 @@
 
   <div class="sponsors">
     <p>John Tan-Aristy</p>
+    <p>Sarah</p>
+    <p>HackSchools Foundation</p>
+    <p>Jakub Wojtak</p>
+    <p>Arnav Kumar</p>
+    <p>Briyan Dyju</p>
   </div>
 
   <div class="info">
@@ -229,10 +240,7 @@
   .legal {
     opacity: 90%;
     font-size: 0.8em;
-  }
-
-  .legal > a:hover {
-    text-decoration: underline;
+    max-width: 100%;
   }
 
   @media (min-width: 640px) and (min-height: 640px) {
@@ -410,7 +418,7 @@
     justify-content: center;
     align-items: center;
     background: rgb(var(--fg));
-    box-shadow: 0.5em 0.5em rgb(var(--bg-20));
+    box-shadow: 0.5em 0.5em rgb(var(--bg-30));
     min-height: 200px;
   }
 
@@ -422,6 +430,12 @@
     .info > div {
       flex-direction: row;
     }
+    
+    .image-box {
+      max-width: 50%;
+      aspect-ratio: 2;
+      object-fit: cover;
+    }
 
     .info-right {
       text-align: right;
@@ -432,7 +446,7 @@
     }
 
     .info-right .image-box {
-      box-shadow: -0.5em 0.5em rgb(var(--bg-20));
+      box-shadow: -0.5em 0.5em rgb(var(--bg-30));
     }
   }
 
@@ -455,8 +469,8 @@
 
   .sponsors > * {
     flex: 1 1 auto;
-    background: rgb(var(--bg-30));
-    box-shadow: 0.5rem 0.5rem rgb(var(--bg-20));
+    background: rgb(var(--bg-20));
+    box-shadow: 0.5rem 0.5rem rgb(var(--bg-30));
     padding: 1rem;
   }
 

@@ -41,16 +41,8 @@
   <footer>
     <div class="footer-inner">
       <a href="/" aria-label="Go to the homepage"><LogoLarge></LogoLarge></a>
-      <div>
-        <p class="title">Zenith Hacks</p>
-        <p>
-          Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
-          81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
-          constitute an endorsement, implied or otherwise.
-        </p>
-      </div>
       <div class="links">
-        <p class="title">Links</p>
+        <p class="title">Zenith Hacks</p>
         <ul>
           <li><a href="https://hackclub.com/slack/">Join us on the Hack Club Slack</a></li>
           <li><a href="https://github.com/zenith-hacks/zenith">View this page's source code</a></li>
@@ -58,14 +50,28 @@
         </ul>
       </div>
       <div class="links">
+        <p class="title">Follow us</p>
+        <ul>
+          <li><a href="https://instagram.com/zenith_hacks">Instagram</a></li>
+          <li><a href="https://twitter.com/zenith_hacks">Twitter (now called X)</a></li>
+          <li><a href="https://www.linkedin.com/company/zenithhacks/">LinkedIn</a></li>
+          <!-- <li><a href="https://threads.net/@zenith_hacks">Threads</a></li> -- We may make an ActivityPub instance soon -->
+        </ul>
+      </div>
+      <div class="links">
         <p class="title">Legal</p>
         <ul>
-          <li><a href="/conduct">Code of Conduct</a></li>
           <li><a href="/privacy">Privacy policy</a></li>
-          <li><a href="/privacy/gdpr">GDPR compliance</a></li>
+          <li><a href="/conduct">Code of conduct</a></li>
+          <li><a href="/privacy/gdpr">GDPR compliance statement</a></li>
         </ul>
       </div>
     </div>
+    <p>
+      Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
+      81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
+      constitute an endorsement, implied or otherwise, of Hack Zenith 2025 by Hack Club.
+    </p>
   </footer>
 </div>
 
@@ -84,7 +90,35 @@
       url('/fonts/InstrumentSans-asciionly-subset-instanced.woff2') format('woff2');
     font-display: swap;
   }
+  
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5);
+  }
 
+  html::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+
+  html::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  html::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.25rem;
+  }
+
+  html::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html::-webkit-scrollbar-thumb {
+      transition: none;
+    }
+  }
+  
   :global(:root) {
     font-family: 'Zenith Sans ASCII', 'Zenith Sans', system-ui, sans-serif;
     line-height: 1.5;
@@ -219,13 +253,17 @@
     padding: 4em;
     min-width: 100vw;
   }
+  
+  footer > * {
+    margin: auto;
+    max-width: 1024px;
+  }
 
   .footer-inner {
     display: flex;
     flex-direction: column;
     gap: 4em;
-    margin: auto;
-    max-width: 1024px;
+    margin-bottom: 2em;
   }
 
   @media (min-width: 1024px) {
