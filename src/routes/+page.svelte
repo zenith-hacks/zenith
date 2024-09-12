@@ -254,6 +254,13 @@
     animation: header 1s calc(var(--idx) * 0.05s) forwards;
   }
   
+  @media (prefers-reduced-motion) {
+    h1 .header-element {
+      font-variation-settings: "wght" 700;
+      animation: none;
+    }
+  }
+  
   h1 .no-break {
     display: inline-block;
     min-width: max-content;
