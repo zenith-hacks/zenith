@@ -121,7 +121,7 @@
         collaborate with like minded individuals in a supportive, mistake friendly environment.
       </p>
     </div>
-    <enhanced:img src="$lib/images/eclipse.webp" alt="Eclipse" />
+    <enhanced:img loading="lazy" src="$lib/images/eclipse.webp" alt="Eclipse" />
   </div>
 </article>
 
@@ -135,7 +135,7 @@
         with others!
       </p>
     </div>
-    <enhanced:img src="$lib/images/hackathon.jpg" alt="A hackathon. There are tables arranged in rows and people with laptops sitting at them." />
+    <enhanced:img loading="lazy" src="$lib/images/hackathon.jpg" alt="A hackathon. There are tables arranged in rows and people with laptops sitting at them." />
   </div>
 </article>
 
