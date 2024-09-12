@@ -16,8 +16,6 @@
   import Axure from '$lib/logos/Axure.svg';
   import CodeCrafters from '$lib/logos/CodeCrafters.png';
   import InterviewBuddy from '$lib/logos/InterviewBuddy.png';
-  import Eclipse from '$lib/images/eclipse.webp';
-  import Hackathon from '$lib/images/hackathon.jpg';
   import { enhance } from '$app/forms';
 
   let button: HTMLButtonElement;
@@ -123,7 +121,7 @@
         collaborate with like minded individuals in a supportive, mistake friendly environment.
       </p>
     </div>
-    <img class="image-box" src={Eclipse} alt="Eclipse" />
+    <enhanced:img src="$lib/images/eclipse.webp" alt="Eclipse" />
   </div>
 </article>
 
@@ -137,7 +135,7 @@
         with others!
       </p>
     </div>
-    <img class="image-box" src={Hackathon} alt="A hackathon. There are tables arranged in rows and people with laptops sitting at them." />
+    <enhanced:img src="$lib/images/hackathon.jpg" alt="A hackathon. There are tables arranged in rows and people with laptops sitting at them." />
   </div>
 </article>
 
@@ -455,7 +453,7 @@
     flex: 1 1 0;
   }
 
-  .image-box {
+  .image-box, .info picture {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -473,9 +471,15 @@
       flex-direction: row;
     }
     
-    .image-box {
+    .image-box, .info picture {
       max-width: 50%;
       aspect-ratio: 2;
+      object-fit: cover;
+    }
+    
+    .image-box, .info img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
 
