@@ -58,6 +58,15 @@
         </ul>
       </div>
       <div class="links">
+        <p class="title">Follow us</p>
+        <ul>
+          <li><a href="https://instagram.com/zenith_hacks">Instagram</a></li>
+          <li><a href="https://twitter.com/zenith_hacks">Twitter (now called X)</a></li>
+          <li><a href="https://www.linkedin.com/company/zenithhacks/">LinkedIn</a></li>
+          <!-- <li><a href="https://threads.net/@zenith_hacks">Threads</a></li> -- We may make an ActivityPub instance soon -->
+        </ul>
+      </div>
+      <div class="links">
         <p class="title">Legal</p>
         <ul>
           <li><a href="/privacy">Privacy policy</a></li>
