@@ -1,5 +1,7 @@
 <script>
   import LogoLarge from '$lib/LogoLarge.svelte';
+  import SpaceGroteskTitle from '$lib/fonts/SpaceGrotesk-title-subset-instanced.woff2?url';
+  import InstrumentSansASCII from '$lib/fonts/InstrumentSans-asciionly-subset-instanced.woff2?url';
 
   import fontCSS from './FontStylesheet.css?url';
 </script>
@@ -8,7 +10,7 @@
   <!-- Look mom, no Google Fonts! -->
   <link
     rel="preload"
-    href="/fonts/SpaceGrotesk-title-subset-instanced.woff2"
+    href={SpaceGroteskTitle}
     as="font"
     type="font/woff2"
     fetchpriority="high"
@@ -16,7 +18,7 @@
   />
   <link
     rel="preload"
-    href="/fonts/InstrumentSans-asciionly-subset-instanced.woff2"
+    href={InstrumentSansASCII}
     as="font"
     type="font/woff2"
     fetchpriority="high"
@@ -76,7 +78,7 @@
 <style>
   @font-face {
     font-family: 'Zenith Title Grotesk';
-    src: url('/fonts/SpaceGrotesk-title-subset-instanced.woff2') format('woff2');
+    src: url('$lib/fonts/SpaceGrotesk-title-subset-instanced.woff2') format('woff2');
     font-display: swap;
     font-feature-settings: 'ss02' 'ss03' 'ss04' 'ss05';
   }
@@ -85,34 +87,34 @@
     font-family: 'Zenith Sans ASCII';
     src:
       local('Instrument Sans'),
-      url('/fonts/InstrumentSans-asciionly-subset-instanced.woff2') format('woff2');
+      url('$lib/fonts/InstrumentSans-asciionly-subset-instanced.woff2') format('woff2');
     font-display: swap;
   }
   
-  html {
+  :global(html) {
     scrollbar-width: thin;
     scrollbar-color: rgba(255, 255, 255, 0.5) rgba(0, 0, 0, 0.5);
   }
 
-  html::-webkit-scrollbar {
+  :global(html::-webkit-scrollbar) {
     width: 0.5rem;
   }
 
-  html::-webkit-scrollbar-track {
+  :global(html::-webkit-scrollbar-track) {
     background: rgba(0, 0, 0, 0.5);
   }
 
-  html::-webkit-scrollbar-thumb {
+  :global(html::-webkit-scrollbar-thumb) {
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 0.25rem;
   }
 
-  html::-webkit-scrollbar-thumb:hover {
+  :global(html::-webkit-scrollbar-thumb:hover) {
     background-color: rgba(255, 255, 255, 0.7);
   }
 
   @media (prefers-reduced-motion: reduce) {
-    html::-webkit-scrollbar-thumb {
+    :global(html::-webkit-scrollbar-thumb) {
       transition: none;
     }
   }

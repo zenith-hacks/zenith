@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Zenith Grotesk';
-  src: url('/fonts/SpaceGrotesk-subset-instanced.woff2') format('woff2');
+  src: url('$lib/fonts/SpaceGrotesk-subset-instanced.woff2') format('woff2');
   font-display: swap;
   font-feature-settings: 'ss02' 'ss03' 'ss04' 'ss05';
 }
 
 @font-face {
   font-family: 'Zenith Sans';
-  src: url('/fonts/InstrumentSans-mostlang-subset-instanced.woff2') format('woff2');
+  src: url('$lib/fonts/InstrumentSans-mostlang-subset-instanced.woff2') format('woff2');
   font-display: swap;
 }
