@@ -34,12 +34,16 @@
   <Sparkles />
   <div class="zenith-header">
     <h1>
-      {#each Array.from("Zenith").entries() as [idx, char]}
-        <span style="--idx: {idx}" class="header-element">{char}</span>
-      {/each}
-      {#each  Array.from("2025").entries() as [idx, char]}
-        <span style="--idx: {idx+7}" class="header-element date">{char}</span>
-      {/each}
+      <span class="no-break">
+        {#each Array.from("Zenith").entries() as [idx, char]}
+          <span style="--idx: {idx}" class="header-element">{char}</span>
+        {/each}
+      </span>
+      <span class="no-break">
+        {#each  Array.from("2025").entries() as [idx, char]}
+          <span style="--idx: {idx+7}" class="header-element date">{char}</span>
+        {/each}
+      </span>
     </h1>
     <p class="header-promo">
       Zenith is a hackathon in San Francisco for teens led by the Hack Club community coming next year. Join us and make
@@ -243,14 +247,19 @@
     font-size: 4em;
     line-height: 1;
     width: min-content;
-    overflow: clip;
   }
   
-  h1 > .header-element {
+  h1 .header-element {
     display: inline-block;
     transform: translateY(-200%);
     font-variation-settings: "wght" 400;
     animation: header 1s calc(var(--idx) * 0.05s) forwards;
+  }
+  
+  h1 .no-break {
+    display: inline-block;
+    min-width: max-content;
+    overflow: clip;
   }
 
   .header-promo {
