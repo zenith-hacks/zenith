@@ -13,6 +13,9 @@
   // import RedBull from '$lib/logos/RedBull.svg';
   import CodeForCause from '$lib/logos/CodeForCause.svg';
   import Desmos from '$lib/logos/Desmos.svg';
+  import Axure from '$lib/logos/Axure.svg';
+  import CodeCrafters from '$lib/logos/CodeCrafters.png';
+  import InterviewBuddy from '$lib/logos/InterviewBuddy.png';
   import { enhance } from '$app/forms';
 
   let button: HTMLButtonElement;
@@ -107,7 +110,7 @@
         collaborate with like minded individuals in a supportive, mistake friendly environment.
       </p>
     </div>
-    <div class="image-box"></div>
+    <img class="image-box" src={Eclipse} alt="Eclipse" />
   </div>
 </article>
 
@@ -121,7 +124,7 @@
         with others!
       </p>
     </div>
-    <div class="image-box"></div>
+    <img class="image-box" src={Hackathon} alt="A hackathon. There are tables arranged in rows and people with laptops sitting at them." />
   </div>
 </article>
 
@@ -154,10 +157,10 @@
     <img loading="lazy" src={DisneyLight} alt="Disney logo" />
     <img loading="lazy" src={CodeForCause} alt="Code for Cause logo" />
     <img loading="lazy" src={Desmos} alt="Desmos logo" />
-    <!-- TODO: Get in contact with Axure for their SVG logo -->
+    <img loading="lazy" src={Axure} alt="Axure logo" />
+    <img loading="lazy" src={CodeCrafters} alt="CodeCrafters logo" />
+    <img loading="lazy" src={InterviewBuddy} alt="InterviewBuddy logo" />
     <!-- <img loading="lazy" src={RedBull} alt="RedBull logo" /> -->
-    <!-- TODO: Get in contact with CodeCrafters for their SVG logo -->
-    <!-- TODO: Get in contact with Google for their SVG logo -->
   </div>
 
   <div class="info">
