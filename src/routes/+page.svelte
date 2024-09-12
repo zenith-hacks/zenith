@@ -169,6 +169,8 @@
     <p>Sarah</p>
     <p>HackSchools Foundation</p>
     <p>Jakub Wojtak</p>
+    <p>Arnav Kumar</p>
+    <p>Briyan Dyju</p>
   </div>
   
   <div class="info">
