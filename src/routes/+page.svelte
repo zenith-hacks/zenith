@@ -72,7 +72,8 @@
         </button>
       </div>
       <p class="legal">
-        By submitting, you confirm that you agree to and have read our <a href="/privacy">privacy policy</a>
+        We collect your IP address and approximate location.
+        By submitting, you agree that you've read your <a href="/privacy">privacy policy</a>.
       </p>
     </form>
   </div>
