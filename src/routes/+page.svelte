@@ -16,6 +16,8 @@
   import Axure from '$lib/logos/Axure.svg';
   import CodeCrafters from '$lib/logos/CodeCrafters.png';
   import InterviewBuddy from '$lib/logos/InterviewBuddy.png';
+  import Eclipse from '$lib/images/eclipse.webp';
+  import Hackathon from '$lib/images/hackathon.jpg';
   import { enhance } from '$app/forms';
 
   let button: HTMLButtonElement;
@@ -431,6 +433,12 @@
   @media (min-width: 640px) {
     .info > div {
       flex-direction: row;
+    }
+    
+    .image-box {
+      max-width: 50%;
+      aspect-ratio: 2;
+      object-fit: cover;
     }
 
     .info-right {

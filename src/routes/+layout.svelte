@@ -41,16 +41,8 @@
   <footer>
     <div class="footer-inner">
       <a href="/" aria-label="Go to the homepage"><LogoLarge></LogoLarge></a>
-      <div>
-        <p class="title">Zenith Hacks</p>
-        <p>
-          Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
-          81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
-          constitute an endorsement, implied or otherwise, of Hack Zenith 2025 by Hack Club.
-        </p>
-      </div>
       <div class="links">
-        <p class="title">Links</p>
+        <p class="title">Zenith Hacks</p>
         <ul>
           <li><a href="https://hackclub.com/slack/">Join us on the Hack Club Slack</a></li>
           <li><a href="https://github.com/zenith-hacks/zenith">View this page's source code</a></li>
@@ -73,6 +65,11 @@
         </ul>
       </div>
     </div>
+    <p>
+      Hack Zenith 2025 is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
+      81-2908499). Hack Zenith 2025 is not an official Hack Club event. Use of Hack Club branding does not
+      constitute an endorsement, implied or otherwise, of Hack Zenith 2025 by Hack Club.
+    </p>
   </footer>
 </div>
 
