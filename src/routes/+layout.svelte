@@ -266,7 +266,7 @@
     margin-bottom: 2em;
   }
 
-  @media (min-width: 1024px) {
+  @media (min-width: 640px) {
     .footer-inner {
       flex-direction: row;
     }
