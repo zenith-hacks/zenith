@@ -69,7 +69,7 @@
           id="email"
           type="email"
           name="email"
-          placeholder="sarah@example.com"
+          placeholder="you@zenith2025.org"
           required
           data-lp-igore
           data-lpignore="true"
@@ -103,7 +103,7 @@
     <div class="scenery-hill-wrapper" style="z-index: 3; --fill: var(--bg-10); --last-fill: var(--bg-20)">
       <Hill2></Hill2>
     </div>
-    
+
     <RotatingSphere style="z-index: 3" />
 
     <div class="scenery-hill-wrapper" style="z-index: 5; --fill: var(--bg); --last-fill: var(--bg-10)">
@@ -186,14 +186,13 @@
     <p>Arnav Kumar</p>
     <p>Briyan Dyju</p>
   </div>
-  
+
   <div class="info">
     <p>
       If you'd like to help out, you can
       <a href="https://hcb.hackclub.com/donations/start/zenithhacks">donate to us as an individual</a>
       or get in touch at
-      <a href="mailto:team@zenithhacks.org">team@zenithhacks.org</a>.
-      Thank you!
+      <a href="mailto:team@zenithhacks.org">team@zenithhacks.org</a>. Thank you!
     </p>
   </div>
 </article>
@@ -313,7 +312,7 @@
     .zenith-header {
       padding: 4em;
     }
-    
+
     .scenery > :global(svg) {
       display: block;
     }
