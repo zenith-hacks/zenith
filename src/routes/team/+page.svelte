@@ -42,19 +42,6 @@
   </article>
 
   <article>
-    <img src={Sarah} alt="Sarah's avatar against a pink background. Her head is an icosahedron" />
-    <div class="profile-card">
-      <h2>Sarah</h2>
-      <p class="tagline">Data privacy coordinator, design lead and web developer</p>
-      <blockquote class="description">Hi! I'm Sarah. I made the website you're looking at.</blockquote>
-      <p>
-        She wasn't asked for a color and a shape because she would be talking to herself. She picked an icosahedron, and
-        she thinks everyone else's choices are boring. (No offense.)
-      </p>
-    </div>
-  </article>
-
-  <article class="right">
     <img src={Hamza} alt="Hamza's avatar against a dark purple background. His head is an hexagon" />
     <div class="profile-card">
       <h2>Hamza</h2>
@@ -64,7 +51,7 @@
     </div>
   </article>
 
-  <article>
+  <article class="right">
     <img src={Mahad} alt="Mahad's avatar against a navy blue background. His head is a hexagon" />
     <div class="profile-card">
       <h2>Mahad</h2>
@@ -74,7 +61,7 @@
     </div>
   </article>
 
-  <article class="right">
+  <article>
     <img src={Karl} alt="Karl's avatar against a green background. His head is missing" />
     <div class="profile-card">
       <h2>Karl</h2>
@@ -84,7 +71,7 @@
     </div>
   </article>
 
-  <article>
+  <article class="right">
     <img src={Briyan} alt="Briyan's avatar against a navy blue background. His head is a square" />
     <div class="profile-card">
       <h2>Briyan</h2>
@@ -96,7 +83,7 @@
     </div>
   </article>
 
-  <article class="right">
+  <article>
     <img src={Nitika} alt="Nitika's avatar against a light pink background. Her head is a heart" />
     <div class="profile-card">
       <h2>Nitika</h2>
@@ -105,6 +92,20 @@
       <p>
         When asked for a color and a shape, she picked light pink and a heart. Despite technically not being allowed, I
         accepted it anyway.
+      </p>
+    </div>
+  </article>
+  
+  <h2>Former team members</h2>
+  
+  <article>
+    <img src={Sarah} alt="Sarah's avatar against a pink background. Her head is an icosahedron" />
+    <div class="profile-card">
+      <h2>Sarah</h2>
+      <p class="tagline">Former data privacy coordinator, design lead and web developer</p>
+      <blockquote class="description">Hi! I'm Sarah. I made most of the website you're looking at.</blockquote>
+      <p>
+        She wasn't asked for a color and a shape because she would be talking to herself.
       </p>
     </div>
   </article>
