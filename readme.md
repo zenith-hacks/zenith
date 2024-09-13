@@ -8,9 +8,7 @@ This repository is not accepting code contributions from people outside Zenith, 
 
 ### I'm a Zenith team member
 
-This repository is Sarah's problem—in general, please talk to me about anything you're going to do before you do it to ensure that the website is held to a high standard.
-
-To report and fix an issue, open an issue or shoot me a Slack message about it and I'll tell you what to do next. If it is really trivial, just open a PR.
+Coordinate with Leo before opening a PR.
 
 ## Get started
 
