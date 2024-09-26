@@ -25,6 +25,7 @@
   <title>Zenith Hacks</title>
   <meta name="description" content="Zenith is a hackathon in San Francisco for teens coming next year." />
   <!-- TODO: Add structured data: https://developers.google.com/search/docs/appearance/structured-data/event#structured-data-type-definitions -->
+  <script async defer src="https://cabin.zenithhacks.org/hello.js"></script>
 </svelte:head>
 
 <div class="scenery">
