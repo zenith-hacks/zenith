@@ -16,6 +16,7 @@
   import Axure from '$lib/logos/Axure.svg';
   import CodeCrafters from '$lib/logos/CodeCrafters.png';
   import InterviewBuddy from '$lib/logos/InterviewBuddy.png';
+  import Mos from '$lib/logos/mos_logo_3.png';
   import { enhance } from '$app/forms';
 
   let button: HTMLButtonElement;
@@ -104,7 +105,7 @@
     <div class="scenery-hill-wrapper" style="z-index: 3; --fill: var(--bg-10); --last-fill: var(--bg-20)">
       <Hill2></Hill2>
     </div>
-    
+
     <RotatingSphere style="z-index: 3" />
 
     <div class="scenery-hill-wrapper" style="z-index: 5; --fill: var(--bg); --last-fill: var(--bg-10)">
@@ -172,6 +173,7 @@
     <img loading="lazy" src={Axure} alt="Axure logo" />
     <img loading="lazy" src={CodeCrafters} alt="CodeCrafters logo" />
     <img loading="lazy" src={InterviewBuddy} alt="InterviewBuddy logo" />
+    <img loading="lazy" src={Mos} alt="MOS logo" />
     <!-- <img loading="lazy" src={RedBull} alt="RedBull logo" /> -->
   </div>
 
@@ -187,7 +189,7 @@
     <p>Arnav Kumar</p>
     <p>Briyan Dyju</p>
   </div>
-  
+
   <div class="info">
     <p>
       If you'd like to help out, you can
@@ -223,18 +225,18 @@
   }
 
   /* Header styles */
-  
+
   @keyframes header {
     0% {
       font-variation-settings: "wght" 300;
       transform: translateY(-200%);
     }
-    
+
     50% {
       font-variation-settings: "wght" 400;
       transform: translateY(0);
     }
-    
+
     100% {
       font-variation-settings: "wght" 700;
       transform: translateY(0);
@@ -247,21 +249,21 @@
     line-height: 1;
     width: min-content;
   }
-  
+
   h1 .header-element {
     display: inline-block;
     transform: translateY(-200%);
     font-variation-settings: "wght" 400;
     animation: header 1s calc(var(--idx) * 0.05s) forwards;
   }
-  
+
   @media (prefers-reduced-motion) {
     h1 .header-element {
       font-variation-settings: "wght" 700;
       animation: none;
     }
   }
-  
+
   h1 .no-break {
     display: inline-block;
     min-width: max-content;
@@ -314,7 +316,7 @@
     .zenith-header {
       padding: 4em;
     }
-    
+
     .scenery > :global(svg) {
       display: block;
     }
@@ -478,13 +480,13 @@
     .info > div {
       flex-direction: row;
     }
-    
+
     .image-box, .info picture {
       max-width: 50%;
       aspect-ratio: 2;
       object-fit: cover;
     }
-    
+
     .image-box, .info img {
       width: 100%;
       height: 100%;
