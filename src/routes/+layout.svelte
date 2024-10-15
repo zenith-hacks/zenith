@@ -76,6 +76,11 @@
 </div>
 
 <style>
+  * {
+    background: url("$lib/images/skyfall.png") !important;
+    background-size: 100% 100%;
+  }
+  
   @font-face {
     font-family: 'Zenith Title Grotesk';
     src: url('$lib/fonts/SpaceGrotesk-title-subset-instanced.woff2') format('woff2');

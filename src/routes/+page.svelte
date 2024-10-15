@@ -35,19 +35,18 @@
   <div class="zenith-header">
     <h1>
       <span class="no-break">
-        {#each Array.from("Zenith").entries() as [idx, char]}
+        {#each Array.from("Skyfall").entries() as [idx, char]}
           <span style="--idx: {idx}" class="header-element">{char}</span>
         {/each}
       </span>
       <span class="no-break">
         {#each  Array.from("2025").entries() as [idx, char]}
-          <span style="--idx: {idx+7}" class="header-element date">{char}</span>
+          <span style="--idx: {idx+8}" class="header-element date">{char}</span>
         {/each}
       </span>
     </h1>
     <p class="header-promo">
-      Zenith is a hackathon in San Francisco for teens led by the Hack Club community coming next year. Join us and make
-      something awesome!
+      Skyfall is the new King of England.
     </p>
     <form
       class="outer-email-form"
@@ -64,14 +63,14 @@
         };
       }}
     >
-      <p>Get exactly one <span aria-hidden="true">(1)</span> email when sign ups open:</p>
+      <p>Get 3660 emails a day about Skyfall:</p>
       <label for="email">Your email</label>
       <div class="email-form">
         <input
           id="email"
           type="email"
           name="email"
-          placeholder="sarah@example.com"
+          placeholder="skyfall@skyfall.skyfall"
           required
           data-lp-igore
           data-lpignore="true"
@@ -88,8 +87,7 @@
         </button>
       </div>
       <p class="legal">
-        We collect your IP address and approximate location.
-        By submitting, you agree that you've read our <a href="/privacy">privacy policy</a>.
+        We collect your blood.
       </p>
     </form>
   </div>
@@ -115,12 +113,11 @@
 </div>
 
 <article class="info">
-  <h2>What is Zenith?</h2>
+  <h2>What is Skyfall?</h2>
   <div>
     <div>
       <p>
-        Zenith 2025 is a hackathon in San Francisco organised by and for teens. Join us for 2 days to share and
-        collaborate with like minded individuals in a supportive, mistake friendly environment.
+        live laugh skyfall
       </p>
     </div>
     <enhanced:img loading="lazy" src="$lib/images/eclipse.webp" alt="Eclipse" />
@@ -128,12 +125,12 @@
 </article>
 
 <article class="info info-right">
-  <h2>What's a hackathon?</h2>
+  <h2>What's Skyfall?</h2>
   <div>
     <div>
       <p>
         <!-- TODO: Change this -->
-        A hackathon is a social event focused on coding where teenagers come together to learn, build, and share their results
+        Skyfall is a social event focused on coding where teenagers come together to learn, build, and share their results
         with others!
       </p>
     </div>
@@ -148,9 +145,9 @@
       <p>You'll need to bring a laptop and an enthusiasm for technology!</p>
       <br />
       <p>
-        However, we understand that not everyone can afford to come to Zenith. Thanks to our sponsors, we're able to pay
-        for your travels if you can't pay for your travels&mdash;even if you live outside of the US. We've got limited
-        funds, so apply early if you need help with paying for travel.
+        However, we understand that not everyone can afford to come to Skyfall. Thanks to our sponsors, we're able to pay
+        for your travels if you can't pay for your travels&mdash;even if you live outside of the UK. We've got infinite
+        funds.
       </p>
     </div>
     <div class="image-box">
