@@ -46,7 +46,7 @@
       <div class="links">
         <p class="title">Zenith Hacks</p>
         <ul>
-          <li><a href="https://hackclub.com/slack/">Join us on the Hack Club Slack</a></li>
+          <li><a href="https://hackclub.com/slack/?event=Zenith%202025">Join us on the Hack Club Slack</a></li>
           <li><a href="https://github.com/zenith-hacks/zenith">View this page's source code</a></li>
           <li><a href="https://hcb.hackclub.com/zenithhacks">Look at our financials</a></li>
         </ul>
