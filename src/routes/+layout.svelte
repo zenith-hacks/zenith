@@ -4,6 +4,8 @@
   import InstrumentSansASCII from '$lib/fonts/InstrumentSans-asciionly-subset-instanced.woff2?url';
 
   import fontCSS from './FontStylesheet.css?url';
+  /** @type {{children?: import('svelte').Snippet}} */
+  let { children } = $props();
 </script>
 
 <svelte:head>
@@ -39,7 +41,7 @@
 </svelte:head>
 
 <div class="main">
-  <slot />
+  {@render children?.()}
   <footer>
     <div class="footer-inner">
       <a href="/" aria-label="Go to the homepage"><LogoLarge></LogoLarge></a>

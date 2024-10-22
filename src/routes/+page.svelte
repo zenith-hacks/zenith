@@ -19,7 +19,7 @@
   import Mos from '$lib/logos/mos_logo_3.png';
   import { enhance } from '$app/forms';
 
-  let button: HTMLButtonElement;
+  let button: HTMLButtonElement = $state();
 </script>
 
 <svelte:head>
