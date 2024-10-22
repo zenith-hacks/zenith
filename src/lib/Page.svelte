@@ -1,5 +1,5 @@
 <script>
-  /** @type {{title: any, children?: import('svelte').Snippet}} */
+  /** @type {{title: string, children?: import('svelte').Snippet}} */
   let { title, children } = $props();
 </script>
 
