@@ -1,5 +1,5 @@
 <script>
-  /** @type {{verticalLines?: number, horizontalLines?: number, style: any}} */
+  /** @type {{verticalLines?: number, horizontalLines?: number, style: string}} */
   let { verticalLines = 10, horizontalLines = 10, style } = $props();
 
   let verticalAngle = Math.PI / verticalLines;
