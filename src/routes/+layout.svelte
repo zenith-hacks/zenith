@@ -64,6 +64,8 @@
         <p class="title">Legal</p>
         <ul>
           <li><a href="/privacy">Privacy policy</a></li>
+          <li><a href="/conduct">Code of conduct</a></li>
+          <li><a href="/privacy/gdpr">GDPR compliance statement</a></li>
         </ul>
       </div>
     </div>
