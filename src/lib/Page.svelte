@@ -1,5 +1,6 @@
 <script>
-  export let title;
+  /** @type {{title: string, children?: import('svelte').Snippet}} */
+  let { title, children } = $props();
 </script>
 
 <svelte:head>
@@ -7,7 +8,7 @@
 </svelte:head>
 
 <div>
-  <slot />
+  {@render children?.()}
 </div>
 
 <style>

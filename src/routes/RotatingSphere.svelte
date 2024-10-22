@@ -1,7 +1,6 @@
 <script>
-  export let verticalLines = 10;
-  export let horizontalLines = 10;
-  export let style;
+  /** @type {{verticalLines?: number, horizontalLines?: number, style: string}} */
+  let { verticalLines = 10, horizontalLines = 10, style } = $props();
 
   let verticalAngle = Math.PI / verticalLines;
   let horizontalAngle = Math.PI / horizontalLines;
