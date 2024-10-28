@@ -29,7 +29,7 @@ make fonts             # generate font subsets
 - Use [Bun](https://bun.sh) as your package manager.
 - Use meaningful CSS class names. Do not use Tailwind.
 - Avoid using px.
-- Without good reason, do not override the default text size.
+- Try not to override the default text size without good reason.
 
 ## Compatibility
 
